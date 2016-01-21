@@ -1,0 +1,1492 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Weapon - Hearthstone: Heroes of Warcraft Wiki</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UAcAUlNACQoAXVVbDw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,2:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,2:24,ee:"QJf3ax"}],9:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,2:24,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,2:24,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+<meta name="generator" content="MediaWiki 1.23.9" />
+<meta name="og:title" content="Weapon" />
+<meta name="og:type" content="website" />
+<meta name="og:image" content="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/b/bc/Wiki.png" />
+<meta name="og:url" content="http://hearthstone.gamepedia.com/Weapon" />
+<meta name="og:site_name" content="Hearthstone: Heroes of Warcraft Wiki" />
+<link rel="ExportRDF" type="application/rdf+xml" title="Weapon" href="/index.php?title=Special:ExportRDF/Weapon&amp;xmlmime=rdf" />
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/index.php?title=Weapon&amp;action=edit" />
+<link rel="edit" title="Edit" href="/index.php?title=Weapon&amp;action=edit" />
+<link rel="apple-touch-icon" href="" />
+<link rel="shortcut icon" href="http://hydra-images.cursecdn.com/hearthstone.gamepedia.com/6/64/Favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Hearthstone: Heroes of Warcraft Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//hearthstone.gamepedia.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Hearthstone: Heroes of Warcraft Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="//hearthstone.gamepedia.com/load.php?debug=false&amp;lang=en&amp;modules=ext.curse.footer%2Cnetbar%7Cext.gadget.Abios_Match_Calendar%7Cext.rtlcite%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles%7Cz.skins.hydra&amp;only=styles&amp;skin=hydra&amp;*" />
+<!--[if lt IE 10]><link rel="stylesheet" href="http://hydra-media.cursecdn.com/hydra/ie.css" media="screen" /><![endif]--><meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//hearthstone.gamepedia.com/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=hydra&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: hearthstone_gamepedia:resourceloader:filter:minify-css:7:72b846838074bfe7fb767c623ce6a29d */</style>
+<script src="//hearthstone.gamepedia.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=hydra&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Weapon","wgTitle":"Weapon","wgCurRevisionId":138998,"wgRevisionId":138998,"wgArticleId":1147,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Queries card data","Card lists"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Weapon","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"experiments":true},"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048},"sfgAutocompleteValues":[],"sfgAutocompleteOnAllChars":false,"sfgFieldProperties":[],"sfgDependentFields":[],"sfgShowOnSelect":[],"sfgScriptPath":"/extensions/SemanticForms","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":true,"previewDialog":false,"publish":true},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"hydra","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,
+"useeditwarning":1,"prefershttps":false,"visualeditor-enable":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"wikieditor-publish":1,"profile-pref":1,"hydra-simplesearch":true,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"plain-text","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-user-rights":true,"echo-subscriptions-web-user-rights":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"visualeditor-enable-experimental":0,"visualeditor-betatempdisable":0,"language":"en","variant-gan":"gan",
+"variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs102":false,"searchNs103":false,"searchNs104":false,"searchNs105":false,"searchNs106":false,"searchNs107":false,"searchNs108":false,"searchNs109":false,"searchNs200":false,"searchNs202":false,"searchNs710":false,"searchNs711":false,"searchNs10002":false,"searchNs10003":false,"echo-subscriptions-web-friendship":1,"echo-subscriptions-email-friendship":1,"echo-subscriptions-web-profile-comment":1,"echo-subscriptions-email-profile-comment":1,"gadget-Countdown":1,"gadget-Abios_Match_Calendar":1,"variant":"en"});},{},{});mw.loader.implement(
+"user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: hearthstone_gamepedia:resourceloader:filter:minify-js:7:af251c3f3d19087f7778f48c574da965 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.smw.style","ext.smw.tooltips","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.siteGlobals","ext.claimWiki","ext.visualEditor.viewPageTarget.init","skins.vector.js"]);
+}</script>
+<meta itemprop="author" content="Gamepedia" /><link rel="stylesheet" type="text/css" href="/extensions/TwitterFBLike/TwitterFBLike.css"/><!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/hydra/csshover.min.htc")}</style><![endif]--><script>
+var script = document.createElement('script');
+var tstamp = new Date();
+script.id = 'factorem';
+script.src = 'http://cdm.cursecdn.com/js/gamepedia/cdmfactorem_min.js?misc=' + tstamp.getTime();
+script.async = false;
+script.type='text/javascript';
+document.head.appendChild(script);
+</script> </head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Weapon skin-hydra action-view vector-animateLayout show-ads site-hearthstone-gamepedia">
+<div id="netbar">
+	<ul class="netbar-left">
+		<li><a class="curse" href="http://www.gamepedia.com">Gamepedia</a></li>
+					<li><a href="http://support.curse.com/">Help</a></li>
+					</ul>
+	<ul class="netbar-right">
+							<li><a href="/index.php?title=Special:UserLogin&returnto=Weapon" id="login-link">Sign In</a></li>
+							<li><a href="/index.php?title=Special:UserLogin&returnto=Weapon&type=signup" id="register-link">Register</a></li>
+						</ul>
+</div>
+	<div id="global-wrapper">
+		<div id="mw-navigation">
+			<div id="mw-page-base" class="noprint"></div>
+			<div id="mw-head">
+				<!--<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Weapon&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Weapon" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>	</ul>
+</div>-->
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/Weapon"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk"><span><a href="/Talk:Weapon"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-sharing" role="sharing" class="vectorMenu" aria-labelledby="p-sharing-label">
+	<h4>Share</h4>
+	<h3 id="p-sharing-label"><span>Share</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+							<li>
+				<div id="socialIconImages">
+					<a href="https://twitter.com/intent/tweet?text=Check+out+Weapon+on+Hearthstone%3A+Heroes+of+Warcraft+Wiki+--&via=CurseGamepedia&url=http%3A%2F%2Fhearthstone.gamepedia.com%2FWeapon" target="_blank"><img src="/extensions/Social/images/square_icons/twitter.png"/></a><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhearthstone.gamepedia.com%2FWeapon" target="_blank"><img src="/extensions/Social/images/square_icons/facebook.png"/></a><a href="https://plus.google.com/share?url=http%3A%2F%2Fhearthstone.gamepedia.com%2FWeapon" target="_blank"><img src="/extensions/Social/images/square_icons/googleplus.png"/></a><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fhearthstone.gamepedia.com%2FWeapon&title=Check+out+Weapon+on+Hearthstone%3A+Heroes+of+Warcraft+Wiki+via+%40CurseGamepedia%3A+http%3A%2F%2Fhearthstone.gamepedia.com%2FWeapon" target="_blank"><img src="/extensions/Social/images/square_icons/reddit.png"/></a><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fhearthstone.gamepedia.com%2FWeapon&name=Hearthstone%3A+Heroes+of+Warcraft+Wiki&description=Check+out+Weapon+on+Hearthstone%3A+Heroes+of+Warcraft+Wiki+via+%3Ca+href%3D%22https%3A%2F%2Ftwitter.com%2FCurseGamepedia%22+target%3D%22_blank%22%3E%40CurseGamepedia%3C%2Fa%3E%3A+http%3A%2F%2Fhearthstone.gamepedia.com%2FWeapon" target="_blank"><img src="/extensions/Social/images/square_icons/tumblr.png"/></a>
+				</div>
+</li>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/Weapon" >View</a></span></li>
+					<li id="ca-ve-edit"><span><a href="/index.php?title=Weapon&amp;veaction=edit"  title="Edit this page with VisualEditor [v]" accesskey="v">Edit</a></span></li>
+					<li id="ca-edit" class="collapsible"><span><a href="/index.php?title=Weapon&amp;action=edit"  title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Weapon&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">History</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/index.php" id="searchform">
+					<div id="simpleSearch">
+					<input type="search" name="search" placeholder="Search" title="Search Hearthstone: Heroes of Warcraft Wiki [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel" class="noprint">
+				<div id="p-logo"><a href="/Hearthstone_Wiki"  title="Visit the main page"><img src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/b/bc/Wiki.png?version=45c580f533cc22c7cb3a074f06b3c004"/></a></div>
+				<!-- <div id="p-portals"> -->
+					<div class="portal" role="navigation" id='p-claimWiki' aria-labelledby='p-claimWiki-label'>
+	<h3 id='p-claimWiki-label'>claimWiki</h3>
+	<div class="body">
+		<div class='claimSidebar'><a href='//hearthstone.gamepedia.com/Special:ClaimWiki'>&nbsp;</a></div>	</div>
+</div>
+<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/Hearthstone_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Portals' aria-labelledby='p-Portals-label'>
+	<h3 id='p-Portals-label'>Portals</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Official-site"><a href="http://us.battle.net/hearthstone/" rel="nofollow" target="_blank">Official site</a></li>
+			<li id="n-Blizzard-Entertainment"><a href="http://blizzard.com/" rel="nofollow" target="_blank">Blizzard Entertainment</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-HearthPwn' aria-labelledby='p-HearthPwn-label'>
+	<h3 id='p-HearthPwn-label'>HearthPwn</h3>
+	<div class="body">
+		<ul>
+			<li id="n-News"><a href="http://www.hearthpwn.com/" target="_blank">News</a></li>
+			<li id="n-Card-database"><a href="http://www.hearthpwn.com/cards" target="_blank">Card database</a></li>
+			<li id="n-Forums"><a href="http://www.hearthpwn.com/forums" target="_blank">Forums</a></li>
+			<li id="n-Deckbuilder"><a href="http://www.hearthpwn.com/deckbuilder" target="_blank">Deckbuilder</a></li>
+			<li id="n-Arena-simulator"><a href="http://www.hearthpwn.com/arena" target="_blank">Arena simulator</a></li>
+			<li id="n-Blue-tracker"><a href="http://www.hearthpwn.com/blue-tracker" target="_blank">Blue tracker</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Join_in' aria-labelledby='p-Join_in-label'>
+	<h3 id='p-Join_in-label'>Join in</h3>
+	<div class="body">
+		<ul>
+			<li id="n-portal"><a href="/Hearthstone_Wiki:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-Community-discussion"><a href="/Hearthstone_Wiki_talk:Community_portal">Community discussion</a></li>
+			<li id="n-Admin-noticeboard"><a href="/Hearthstone_Wiki:Admin_noticeboard">Admin noticeboard</a></li>
+			<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Hearthpedia' aria-labelledby='p-Hearthpedia-label'>
+	<h3 id='p-Hearthpedia-label'>Hearthpedia</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Hearthpedia-Portal"><a href="http://hearthstone.gamepedia.com/Hearthpedia" target="_blank">Hearthpedia Portal</a></li>
+			<li id="n-Hearthstone-Teams"><a href="http://hearthstone.gamepedia.com/Teams" target="_blank">Hearthstone Teams</a></li>
+			<li id="n-Hearthstone-Players"><a href="http://hearthstone.gamepedia.com/Players" target="_blank">Hearthstone Players</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Gamepedia' aria-labelledby='p-Gamepedia-label'>
+	<h3 id='p-Gamepedia-label'>Gamepedia</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Gamepedia-forums"><a href="http://gamepedia.com/forums" target="_blank">Gamepedia forums</a></li>
+			<li id="n-Help-Wiki"><a href="http://help.gamepedia.com" target="_blank">Help Wiki</a></li>
+			<li id="n-Contact-us"><a href="http://help.gamepedia.com/How_To_Contact_Gamepedia" target="_blank">Contact us</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Weapon" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Weapon" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-print"><a href="/index.php?title=Weapon&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Weapon&amp;oldid=138998" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/index.php?title=Weapon&amp;action=info">Page information</a></li>
+			<li id="t-smwbrowselink"><a href="/Special:Browse/Weapon" rel="smw-browse">Browse properties</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-sitePromos' aria-labelledby='p-sitePromos-label'>
+	<h3 id='p-sitePromos-label'></h3>
+	<div class="body">
+		
+						<div class='wikiLinkSidebar'><a href="http://madmax.gamepedia.com"><img src="http://media-mercury.cursecdn.com/attachments/4/285/mad-max-wiki-sidebar.png" title="Check out the Official Mad Max wiki, the #1 community-generated resource for Warface weapons, missions, and more"/></a>
+<a href="http://trove.gamepedia.com/"><img src="http://media-mercury.cursecdn.com/attachments/4/278/trove_sidebadge.png" title="The #1 community driven wiki resource for Trove."/></a>
+<a href="http://smite.gamepedia.com/"><img src="http://media-mercury.cursecdn.com/attachments/1/702/smite_sidebadge.png" title="SMITE wiki is the #1 source of SMITE information, including Gods, skills, items, and guides."/></a>
+<a href="http://www.gamepedia.com/news/802-celebrate-indie-game-month-2015-at-n4g"><img src="http://media-mercury.cursecdn.com/attachments/4/252/igm-button-gamepedia.png" title="Join N4G.com and Gamepedia in celebrating Indie Developers all month long!"/></a>
+
+						</div>
+							<script type='text/javascript'>
+								document.getElementById('p-sitePromos').className = 'portal persistent';
+							</script>	</div>
+</div>
+<div class="portal" role="navigation" id='p-socialProfiles' aria-labelledby='p-socialProfiles-label'>
+	<h3 id='p-socialProfiles-label'></h3>
+	<div class="body">
+		<div class='socialSidebar'>
+						<script type='text/javascript'>
+							document.getElementById('p-socialProfiles').className = 'portal persistent';
+						</script>
+						<div class='socialLink twitter'><a href="https://twitter.com/CurseGamepedia" target="_blank"><img src="/extensions/Social/images/square_icons/twitter.png" /></a></div><div class='socialLink facebook'><a href="https://www.facebook.com/CurseGamepedia" target="_blank"><img src="/extensions/Social/images/square_icons/facebook.png" /></a></div><div class='socialLink youtube'><a href="https://www.youtube.com/CurseGP" target="_blank"><img src="/extensions/Social/images/square_icons/youtube.png" /></a></div><div class='socialLink googleplus'><a href="https://plus.google.com/115617982346226991528" target="_blank" rel="Publisher"><img src="/extensions/Social/images/square_icons/googleplus.png" /></a></div>
+					</div>	</div>
+</div>
+				<!-- </div> -->
+			</div>
+		</div>
+		<div id="pageWrapper">
+			<div id="mw-head-base" class="noprint"></div>
+			<!-- content -->
+			<div id="content" itemprop="articleBody" class="mw-body">
+				<a id="top"></a>
+				<div id="mw-js-message" style="display:none;"></div>
+								<!-- first ads placement -->
+									<div class="atflb">
+						<div id='cdm-zone-01'></div>					</div>
+								<!-- /first ads placement -->
+				<!-- firstHeading -->
+				<h1 id="firstHeading" class="firstHeading">
+					<span itemprop="name" dir="auto">Weapon</span>
+				</h1>
+				<!-- /firstHeading -->
+				<div id="bodyWrapper">
+					<!-- bodyContent -->
+					<div id="bodyContent">
+												<!-- 300x250 Ad block -->
+						<div class="atfmrec">
+							<div id='cdm-zone-02'></div>						</div>
+						<!-- End 300x250 Ad block -->
+												<!-- /sidebar -->
+												<div id="siteSub">From Hearthstone: Heroes of Warcraft Wiki</div>
+												<div id="contentSub"></div>
+																		<div id="jump-to-nav" class="mw-jump">
+							Jump to:							<a href="#mw-navigation">navigation</a>, 							<a href="#p-search">search</a>
+						</div>
+						<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="cardsidebar">
+<div class="floatright"><a href="/Light%27s_Justice" title="Light&#39;s Justice"><img alt="Light&#39;s Justice.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/0/00/Light%27s_Justice.png/200px-Light%27s_Justice.png?version=c3d08bea59014b6322329b7b5f120147" width="200" height="274" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/00/Light%27s_Justice.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/00/Light%27s_Justice.png 2x" /></a></div>
+<div class="floatright"><a href="/Arcanite_Reaper" title="Arcanite Reaper"><img alt="Arcanite Reaper.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/4/46/Arcanite_Reaper.png/200px-Arcanite_Reaper.png?version=3e16e42018491417705aac1657fbcd6a" width="200" height="274" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/4/46/Arcanite_Reaper.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/4/46/Arcanite_Reaper.png 2x" /></a></div>
+<div class="floatright"><a href="/Perdition%27s_Blade" title="Perdition&#39;s Blade"><img alt="Perdition&#39;s Blade.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/8/88/Perdition%27s_Blade.png/200px-Perdition%27s_Blade.png?version=d3db83aec9a93ca099054d133d6434a6" width="200" height="274" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/88/Perdition%27s_Blade.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/88/Perdition%27s_Blade.png 2x" /></a></div>
+</div>
+<p><b>Weapons</b> are special <a href="/Card" title="Card">cards</a> which can be equipped by <a href="/Heroes" title="Heroes" class="mw-redirect">heroes</a>. Each weapon has an <a href="/Attack" title="Attack" class="mw-redirect">Attack</a> value and a <a href="/Durability" title="Durability" class="mw-redirect">Durability</a> value. Each hero can only equip one weapon at a time, and equipping a new weapon will <a href="/Destroy" title="Destroy">destroy</a> the old one. While a weapon is equipped, the hero's Attack will be increased by an amount equal to the weapon's Attack, and attacking while a weapon is equipped will reduce its Durability by 1. When a weapon's Durability is reduced to zero, the weapon will be <a href="/Destroy" title="Destroy">destroyed</a>. If a Hero attacks a <a href="/Minion" title="Minion">minion</a> with an Attack value above 0 the minion will deal that amount of damage to the hero in turn.
+</p><p>Weapons can be equipped in several ways. The main source of weapons is from playing <b>weapon cards</b>, the least common of the three card types. Some <a href="/Spell" title="Spell">spells</a> and <a href="/Minion" title="Minion">minion</a> <a href="/Battlecries" title="Battlecries" class="mw-redirect">Battlecries</a> and <a href="/Deathrattle" title="Deathrattle">Deathrattles</a> also grant players weapons, as does the <a href="/Rogue" title="Rogue">rogue</a> <a href="/Hero_power" title="Hero power" class="mw-redirect">hero power</a> <a href="/Dagger_Mastery" title="Dagger Mastery">Dagger Mastery</a>. As well as equipping weapons, some cards offer weapon synergy, improving or drawing strength from them, or even destroying the enemy's. <a href="/Pirate" title="Pirate">Pirate</a> cards have a strong weapon theme.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Notes"><span class="tocnumber">1</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Classes"><span class="tocnumber">2</span> <span class="toctext">Classes</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Weapon_cards"><span class="tocnumber">3</span> <span class="toctext">Weapon cards</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Collectible"><span class="tocnumber">3.1</span> <span class="toctext">Collectible</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Uncollectible"><span class="tocnumber">3.2</span> <span class="toctext">Uncollectible</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Related_cards"><span class="tocnumber">4</span> <span class="toctext">Related cards</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Weapon&amp;veaction=edit&amp;section=1" title="Edit section: Notes" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Weapon&amp;action=edit&amp;section=1" title="Edit section: Notes">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li> Weapons are only active or 'unsheathed' during the possessing hero's <a href="/Turn" title="Turn">turn</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> If the hero is attacked during their opponent's turn, the weapon will not be used, and will not deal damage or lose Durability.
+</li>
+<li> Weapons only lose Durability when used to attack a target. If a hero is attacked during their own turn, such as through <a href="/Misdirection" title="Misdirection">Misdirection</a>, the weapon will deal damage but will not lose Durability.
+</li>
+<li> Weapons can be destroyed through running out of Durability; being replaced by another weapon; or specific <a href="/Destroy" title="Destroy">destroy</a> effects like those of <a href="/Acidic_Swamp_Ooze" title="Acidic Swamp Ooze">Acidic Swamp Ooze</a> and <a href="/Harrison_Jones" title="Harrison Jones">Harrison Jones</a>. Regardless of the means, the effect is the same, and any <a href="/Deathrattle" title="Deathrattle">Deathrattles</a> on the weapon will be triggered.
+</li>
+<li> Weapons serve to increase the hero's Attack, but this can be increased further through effects such as <a href="/Shapeshift" title="Shapeshift">Shapeshift</a> and <a href="/Heroic_Strike" title="Heroic Strike">Heroic Strike</a>. The damage dealt by the hero's attacks is equal to their total Attack value, not the attack of any weapon equipped.
+</li>
+<li> Weapons are the only enduring source of hero Attack; all other sources are lost at the end of the turn.
+</li>
+<li> Since all weapon cards have a dark gray background, the class a weapon belongs to is indicated by the color of the frame surrounding the card text. On <a href="/Golden" title="Golden" class="mw-redirect">golden</a> weapon cards class is indicated by the color of the vertical band running down the centre of the card.
+</li>
+</ul>
+<h2><span class="mw-headline" id="Classes">Classes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Weapon&amp;veaction=edit&amp;section=2" title="Edit section: Classes" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Weapon&amp;action=edit&amp;section=2" title="Edit section: Classes">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>All <a href="/Class" title="Class">classes</a> except <a href="/Druid" title="Druid">druids</a>, <a href="/Priest" title="Priest">priests</a> and <a href="/Mage" title="Mage">mages</a> have weapons available to them. <a href="/Rogue" title="Rogue">Rogues</a>, <a href="/Paladin" title="Paladin">paladins</a> and <a href="/Warrior" title="Warrior">warriors</a> are generally considered to have the greatest synergy with weapons, while <a href="/Hunter" title="Hunter">hunters</a> and <a href="/Shaman" title="Shaman">shamans</a> have limited weapon choices. <a href="/Warlock" title="Warlock">Warlocks</a> do not generally have access to weapons, but gain one when replaced by <a href="/Lord_Jaraxxus" title="Lord Jaraxxus">Lord Jaraxxus</a>.
+</p><p>All heroes can equip weapons, and even weaponless classes can obtain them through a combination of <a href="/Mind_control_effect" title="Mind control effect">mind control effects</a> and <a href="/Return" title="Return" class="mw-redirect">return</a> effects. For example, a mage might use <a href="/Sylvanas_Windrunner" title="Sylvanas Windrunner">Sylvanas Windrunner</a>'s <a href="/Deathrattle" title="Deathrattle">Deathrattle</a> to take control of an <a href="/Arathi_Weaponsmith" title="Arathi Weaponsmith">Arathi Weaponsmith</a>, then use <a href="/Youthful_Brewmaster" title="Youthful Brewmaster">Youthful Brewmaster</a> to return it to their hand, allowing it to be played again, equipping the hero with <a href="/Battle_Axe" title="Battle Axe">Battle Axe</a>. Additionally, <a href="/Blingtron_3000" title="Blingtron 3000">Blingtron 3000</a> equips both players with a weapon, even if one of the players is a usually weaponless class.
+</p><p>Despite not having any weapons of their own, <a href="/Priest" title="Priest">priests</a> have substantial access to opponents' weapons through <a href="/Copy" title="Copy">copy</a> effects such as <a href="/Mind_Vision" title="Mind Vision">Mind Vision</a> and <a href="/Thoughtsteal" title="Thoughtsteal">Thoughtsteal</a>, as well as <a href="/Mindgames" title="Mindgames">Mindgames</a>. With access to powerful additional mind control effects such as <a href="/Mind_Control" title="Mind Control">Mind Control</a> and <a href="/Cabal_Shadow_Priest" title="Cabal Shadow Priest">Cabal Shadow Priest</a>, the priest is a substantially weapon-capable class when playing against a suitable opponent.
+</p>
+<h2><span class="mw-headline" id="Weapon_cards">Weapon cards</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Weapon&amp;veaction=edit&amp;section=3" title="Edit section: Weapon cards" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Weapon&amp;action=edit&amp;section=3" title="Edit section: Weapon cards">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Collectible">Collectible</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Weapon&amp;veaction=edit&amp;section=4" title="Edit section: Collectible" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Weapon&amp;action=edit&amp;section=4" title="Edit section: Collectible">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/Collectible" title="Collectible">Collectible</a> weapons can be <a href="/Collect" title="Collect" class="mw-redirect">collected</a> by players and added to decks.
+</p>
+<table class="wikitable sortable cardtable cardtable-collapsible cardtable-collapsed">
+
+<tr>
+<th style="width: 8.5em;" class="wideonly">Name
+</th>
+<th style="width: auto;" class="narrowonly">Name / Desc
+</th>
+<th style="width: 3.5em;">Rarity
+</th>
+<th style="width: 3.5em;">Class
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Cost
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Atk
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Dur
+</th>
+<th style="width: auto;" class="wideonly unsortable">Description
+</th></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Fiery_War_Axe" title="Fiery War Axe">Fiery War Axe</a>
+</td>
+<td class="narrowonly"><a href="/Fiery_War_Axe" title="Fiery War Axe">Fiery War Axe</a>
+</td>
+<td><span style="display: none;">{0</span><span class="free">Free</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">2 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 3 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <i>During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>  <i>During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Light%27s_Justice" title="Light's Justice">Light's Justice</a>
+</td>
+<td class="narrowonly"><a href="/Light%27s_Justice" title="Light's Justice">Light's Justice</a>
+</td>
+<td><span style="display: none;">{0</span><span class="free">Free</span>
+</td>
+<td class="paladin-box"><span style="white-space: nowrap;"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" />&#160;<span class="paladin">Paladin</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 1 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">4 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <i>Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>  <i>Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Arcanite_Reaper" title="Arcanite Reaper">Arcanite Reaper</a>
+</td>
+<td class="narrowonly"><a href="/Arcanite_Reaper" title="Arcanite Reaper">Arcanite Reaper</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">5 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 5 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <i>No… actually you should fear the Reaper.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>  <i>No… actually you should fear the Reaper.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Assassin%27s_Blade" title="Assassin's Blade">Assassin's Blade</a>
+</td>
+<td class="narrowonly"><a href="/Assassin%27s_Blade" title="Assassin's Blade">Assassin's Blade</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">5 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 3 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">4 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <i>Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>  <i>Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Death%27s_Bite" title="Death's Bite">Death's Bite</a>
+</td>
+<td class="narrowonly"><a href="/Death%27s_Bite" title="Death's Bite">Death's Bite</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">4 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 4 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"><b>Deathrattle:</b> Deal 1 damage to all minions. <i>"Take a bite outta Death." - McScruff the Deathlord</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> <b>Deathrattle:</b> Deal 1 damage to all minions. <i>"Take a bite outta Death." - McScruff the Deathlord</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Glaivezooka" title="Glaivezooka">Glaivezooka</a>
+</td>
+<td class="narrowonly"><a href="/Glaivezooka" title="Glaivezooka">Glaivezooka</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="hunter-box"><span style="white-space: nowrap;"><img alt="Hunter icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/16px-Hunter_icon.png?version=9992604b045602697d0b8354f78c6bcb" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/24px-Hunter_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/dd/Hunter_icon.png 2x" />&#160;<span class="hunter">Hunter</span></span>
+</td>
+<td style="text-align: center;">2 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 2 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"><b>Battlecry:</b> Give a random friendly minion +1 Attack. <i>For the times when a regular bazooka just isn't enough.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> <b>Battlecry:</b> Give a random friendly minion +1 Attack. <i>For the times when a regular bazooka just isn't enough.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Ogre_Warmaul" title="Ogre Warmaul">Ogre Warmaul</a>
+</td>
+<td class="narrowonly"><a href="/Ogre_Warmaul" title="Ogre Warmaul">Ogre Warmaul</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 4 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">50% chance to attack the wrong enemy. <i>Simple, misguided, and incredibly dangerous. You know, like most things ogre.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> 50% chance to attack the wrong enemy. <i>Simple, misguided, and incredibly dangerous. You know, like most things ogre.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Stormforged_Axe" title="Stormforged Axe">Stormforged Axe</a>
+</td>
+<td class="narrowonly"><a href="/Stormforged_Axe" title="Stormforged Axe">Stormforged Axe</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="shaman-box"><span style="white-space: nowrap;"><img alt="Shaman icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/16px-Shaman_icon.png?version=0be8741a7d54228b67e790bb8b570374" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/24px-Shaman_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/a/a8/Shaman_icon.png 2x" />&#160;<span class="shaman">Shaman</span></span>
+</td>
+<td style="text-align: center;">2 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 2 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"><b>Overload:</b> (1) <i>Yo, that's a nice axe.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> <b>Overload:</b> (1) <i>Yo, that's a nice axe.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Truesilver_Champion" title="Truesilver Champion">Truesilver Champion</a>
+</td>
+<td class="narrowonly"><a href="/Truesilver_Champion" title="Truesilver Champion">Truesilver Champion</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="paladin-box"><span style="white-space: nowrap;"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" />&#160;<span class="paladin">Paladin</span></span>
+</td>
+<td style="text-align: center;">4 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 4 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">Whenever your hero attacks, restore 2 Health to it. <i>It Slices, it Dices. You can cut a tin can with it. (But you wouldn't want to.)</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> Whenever your hero attacks, restore 2 Health to it. <i>It Slices, it Dices. You can cut a tin can with it. (But you wouldn't want to.)</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Eaglehorn_Bow" title="Eaglehorn Bow">Eaglehorn Bow</a>
+</td>
+<td class="narrowonly"><a href="/Eaglehorn_Bow" title="Eaglehorn Bow">Eaglehorn Bow</a>
+</td>
+<td><span style="display: none;">{3</span><span class="rare">Rare</span>
+</td>
+<td class="hunter-box"><span style="white-space: nowrap;"><img alt="Hunter icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/16px-Hunter_icon.png?version=9992604b045602697d0b8354f78c6bcb" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/24px-Hunter_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/dd/Hunter_icon.png 2x" />&#160;<span class="hunter">Hunter</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 3 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">Whenever a friendly <b>Secret</b> is revealed, gain +1 Durability. <i>First Lesson: Put the pointy end in the other guy.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> Whenever a friendly <b>Secret</b> is revealed, gain +1 Durability. <i>First Lesson: Put the pointy end in the other guy.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Perdition%27s_Blade" title="Perdition's Blade">Perdition's Blade</a>
+</td>
+<td class="narrowonly"><a href="/Perdition%27s_Blade" title="Perdition's Blade">Perdition's Blade</a>
+</td>
+<td><span style="display: none;">{3</span><span class="rare">Rare</span>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 2 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"><b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead. <i>Perdition's Blade is Ragnaros's back-up weapon while Sulfuras is in the shop.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> <b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead. <i>Perdition's Blade is Ragnaros's back-up weapon while Sulfuras is in the shop.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Powermace" title="Powermace">Powermace</a>
+</td>
+<td class="narrowonly"><a href="/Powermace" title="Powermace">Powermace</a>
+</td>
+<td><span style="display: none;">{3</span><span class="rare">Rare</span>
+</td>
+<td class="shaman-box"><span style="white-space: nowrap;"><img alt="Shaman icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/16px-Shaman_icon.png?version=0be8741a7d54228b67e790bb8b570374" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/24px-Shaman_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/a/a8/Shaman_icon.png 2x" />&#160;<span class="shaman">Shaman</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 3 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"><b>Deathrattle</b>: Give a random friendly Mech +2/+2. <i>People assume that shamans control the elements, but really, they have to ask them stuff and the elements are like, "Yeah ok, sure."</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> <b>Deathrattle</b>: Give a random friendly Mech +2/+2. <i>People assume that shamans control the elements, but really, they have to ask them stuff and the elements are like, "Yeah ok, sure."</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Coghammer" title="Coghammer">Coghammer</a>
+</td>
+<td class="narrowonly"><a href="/Coghammer" title="Coghammer">Coghammer</a>
+</td>
+<td><span style="display: none;">{4</span><span class="epic">Epic</span>
+</td>
+<td class="paladin-box"><span style="white-space: nowrap;"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" />&#160;<span class="paladin">Paladin</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 2 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"><b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>. <i>So you ripped this out of a machine, carved some runes on it, stuck it on a handle, and now it's a weapon of great divine power? Seems legit.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> <b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>. <i>So you ripped this out of a machine, carved some runes on it, stuck it on a handle, and now it's a weapon of great divine power? Seems legit.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Cogmaster%27s_Wrench" title="Cogmaster's Wrench">Cogmaster's Wrench</a>
+</td>
+<td class="narrowonly"><a href="/Cogmaster%27s_Wrench" title="Cogmaster's Wrench">Cogmaster's Wrench</a>
+</td>
+<td><span style="display: none;">{4</span><span class="epic">Epic</span>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 1 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">Has +2 Attack while you have a Mech. <i>For tightening cogs and smashin' troggs!</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> Has +2 Attack while you have a Mech. <i>For tightening cogs and smashin' troggs!</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Doomhammer" title="Doomhammer">Doomhammer</a>
+</td>
+<td class="narrowonly"><a href="/Doomhammer" title="Doomhammer">Doomhammer</a>
+</td>
+<td><span style="display: none;">{4</span><span class="epic">Epic</span>
+</td>
+<td class="shaman-box"><span style="white-space: nowrap;"><img alt="Shaman icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/16px-Shaman_icon.png?version=0be8741a7d54228b67e790bb8b570374" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/24px-Shaman_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/a/a8/Shaman_icon.png 2x" />&#160;<span class="shaman">Shaman</span></span>
+</td>
+<td style="text-align: center;">5 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 2 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">8 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"><b>Windfury, Overload:</b> (2) <i>Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> <b>Windfury, Overload:</b> (2) <i>Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Gladiator%27s_Longbow" title="Gladiator's Longbow">Gladiator's Longbow</a>
+</td>
+<td class="narrowonly"><a href="/Gladiator%27s_Longbow" title="Gladiator's Longbow">Gladiator's Longbow</a>
+</td>
+<td><span style="display: none;">{4</span><span class="epic">Epic</span>
+</td>
+<td class="hunter-box"><span style="white-space: nowrap;"><img alt="Hunter icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/16px-Hunter_icon.png?version=9992604b045602697d0b8354f78c6bcb" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/24px-Hunter_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/dd/Hunter_icon.png 2x" />&#160;<span class="hunter">Hunter</span></span>
+</td>
+<td style="text-align: center;">7 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 5 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">Your hero is <b>Immune</b> while attacking. <i>The longbow allows shots to be fired from farther away and is useful for firing on particularly odorous targets.</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> Your hero is <b>Immune</b> while attacking. <i>The longbow allows shots to be fired from farther away and is useful for firing on particularly odorous targets.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Gorehowl" title="Gorehowl">Gorehowl</a>
+</td>
+<td class="narrowonly"><a href="/Gorehowl" title="Gorehowl">Gorehowl</a>
+</td>
+<td><span style="display: none;">{4</span><span class="epic">Epic</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">7 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 7 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">1 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">Attacking a minion costs 1 Attack instead of 1 Durability. <i>Grommash Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> Attacking a minion costs 1 Attack instead of 1 Durability. <i>Grommash Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Sword_of_Justice" title="Sword of Justice">Sword of Justice</a>
+</td>
+<td class="narrowonly"><a href="/Sword_of_Justice" title="Sword of Justice">Sword of Justice</a>
+</td>
+<td><span style="display: none;">{4</span><span class="epic">Epic</span>
+</td>
+<td class="paladin-box"><span style="white-space: nowrap;"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" />&#160;<span class="paladin">Paladin</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 1 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">5 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">Whenever you summon a minion, give it +1/+1 and this loses 1 Durability. <i>I dub you Sir Loin of Beef!</i>
+</td></tr>
+<tr class="narrowonly expand-child">
+<td> Whenever you summon a minion, give it +1/+1 and this loses 1 Durability. <i>I dub you Sir Loin of Beef!</i>
+</td></tr>
+<tr class="sortbottom">
+<td colspan="20" style="text-align: right;"><i>Showing all 18 cards</i>
+</td></tr></table><a href="/Fiery_War_Axe" title="Fiery War Axe"><img alt="Fiery War Axe(632).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/8/84/Fiery_War_Axe%28632%29.png/200px-Fiery_War_Axe%28632%29.png?version=7e9f4deb930c7156aa6ee4f60eb8273b" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/84/Fiery_War_Axe%28632%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/84/Fiery_War_Axe%28632%29.png 2x" /></a><a href="/Light%27s_Justice" title="Light&#39;s Justice"><img alt="Light&#39;s Justice(250).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9a/Light%27s_Justice%28250%29.png/200px-Light%27s_Justice%28250%29.png?version=6215daf36e9c56fc4b3b7919ff6960ea" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9a/Light%27s_Justice%28250%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9a/Light%27s_Justice%28250%29.png 2x" /></a><a href="/Arcanite_Reaper" title="Arcanite Reaper"><img alt="Arcanite Reaper(182).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/de/Arcanite_Reaper%28182%29.png/200px-Arcanite_Reaper%28182%29.png?version=09647edbc9cf16ff77565584b90de1c6" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/de/Arcanite_Reaper%28182%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/de/Arcanite_Reaper%28182%29.png 2x" /></a><a href="/Assassin%27s_Blade" title="Assassin&#39;s Blade"><img alt="Assassin&#39;s Blade(433).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c4/Assassin%27s_Blade%28433%29.png/200px-Assassin%27s_Blade%28433%29.png?version=38090f7312e2137c87c9cd7cd0d75105" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c4/Assassin%27s_Blade%28433%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c4/Assassin%27s_Blade%28433%29.png 2x" /></a><a href="/Death%27s_Bite" title="Death&#39;s Bite"><img alt="Death&#39;s Bite(7734).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/f/ff/Death%27s_Bite%287734%29.png/200px-Death%27s_Bite%287734%29.png?version=c603a8698f056e0066e85447099e3a43" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/ff/Death%27s_Bite%287734%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/ff/Death%27s_Bite%287734%29.png 2x" /></a><a href="/Glaivezooka" title="Glaivezooka"><img alt="Glaivezooka(12267).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/e/e1/Glaivezooka%2812267%29.png/200px-Glaivezooka%2812267%29.png?version=32c01ab8a2a193cbfb3b3592598836e4" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/e1/Glaivezooka%2812267%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/e1/Glaivezooka%2812267%29.png 2x" /></a><a href="/Ogre_Warmaul" title="Ogre Warmaul"><img alt="Ogre Warmaul(12211).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Ogre_Warmaul%2812211%29.png/200px-Ogre_Warmaul%2812211%29.png?version=8913d6139c4a8a137d2a2501b74e53de" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Ogre_Warmaul%2812211%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Ogre_Warmaul%2812211%29.png 2x" /></a><a href="/Stormforged_Axe" title="Stormforged Axe"><img alt="Stormforged Axe(152).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/4/47/Stormforged_Axe%28152%29.png/200px-Stormforged_Axe%28152%29.png?version=4be25e022efd0be1f01f111561722d09" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/4/47/Stormforged_Axe%28152%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/4/47/Stormforged_Axe%28152%29.png 2x" /></a><a href="/Truesilver_Champion" title="Truesilver Champion"><img alt="Truesilver Champion(293).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/f/fd/Truesilver_Champion%28293%29.png/200px-Truesilver_Champion%28293%29.png?version=00c35101647b2b618294f350d5ba9d25" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fd/Truesilver_Champion%28293%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fd/Truesilver_Champion%28293%29.png 2x" /></a><a href="/Eaglehorn_Bow" title="Eaglehorn Bow"><img alt="Eaglehorn Bow(363).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d4/Eaglehorn_Bow%28363%29.png/200px-Eaglehorn_Bow%28363%29.png?version=6f230cb42440472d600a5cc843e2465a" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d4/Eaglehorn_Bow%28363%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d4/Eaglehorn_Bow%28363%29.png 2x" /></a><a href="/Perdition%27s_Blade" title="Perdition&#39;s Blade"><img alt="Perdition&#39;s Blade(82).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/de/Perdition%27s_Blade%2882%29.png/200px-Perdition%27s_Blade%2882%29.png?version=ba15d41fe9de233de2e09e8baba80ca0" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/de/Perdition%27s_Blade%2882%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/de/Perdition%27s_Blade%2882%29.png 2x" /></a><a href="/Powermace" title="Powermace"><img alt="Powermace(12269).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9e/Powermace%2812269%29.png/200px-Powermace%2812269%29.png?version=e5b984252a1e9d82e2414c4b34e9af86" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9e/Powermace%2812269%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9e/Powermace%2812269%29.png 2x" /></a><a href="/Coghammer" title="Coghammer"><img alt="Coghammer(12228).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/2/27/Coghammer%2812228%29.png/200px-Coghammer%2812228%29.png?version=3c930798465913e3e17c9f29209dc870" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/27/Coghammer%2812228%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/27/Coghammer%2812228%29.png 2x" /></a><a href="/Cogmaster%27s_Wrench" title="Cogmaster&#39;s Wrench"><img alt="Cogmaster&#39;s Wrench(12265).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/7/7c/Cogmaster%27s_Wrench%2812265%29.png/200px-Cogmaster%27s_Wrench%2812265%29.png?version=a5aaeb4fdb5ed68a704551fc7415d123" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/7c/Cogmaster%27s_Wrench%2812265%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/7c/Cogmaster%27s_Wrench%2812265%29.png 2x" /></a><a href="/Doomhammer" title="Doomhammer"><img alt="Doomhammer(172).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/0/07/Doomhammer%28172%29.png/200px-Doomhammer%28172%29.png?version=ed76cc6d6467e62036e8a7d5570f9ef2" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/07/Doomhammer%28172%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/07/Doomhammer%28172%29.png 2x" /></a><a href="/Gladiator%27s_Longbow" title="Gladiator&#39;s Longbow"><img alt="Gladiator&#39;s Longbow(278).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/e/e2/Gladiator%27s_Longbow%28278%29.png/200px-Gladiator%27s_Longbow%28278%29.png?version=0c354efc1f997b1fa93b4dbababfe9f1" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/e2/Gladiator%27s_Longbow%28278%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/e2/Gladiator%27s_Longbow%28278%29.png 2x" /></a><a href="/Gorehowl" title="Gorehowl"><img alt="Gorehowl(96).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/7/70/Gorehowl%2896%29.png/200px-Gorehowl%2896%29.png?version=3e5d6d3da87495820b990c4402e76bd6" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/70/Gorehowl%2896%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/70/Gorehowl%2896%29.png 2x" /></a><a href="/Sword_of_Justice" title="Sword of Justice"><img alt="Sword of Justice(567).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/e/e8/Sword_of_Justice%28567%29.png/200px-Sword_of_Justice%28567%29.png?version=bb845690ccb6c954a5f1d8ad9d4db560" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/e8/Sword_of_Justice%28567%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/e8/Sword_of_Justice%28567%29.png 2x" /></a>
+<h3><span class="mw-headline" id="Uncollectible">Uncollectible</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Weapon&amp;veaction=edit&amp;section=5" title="Edit section: Uncollectible" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Weapon&amp;action=edit&amp;section=5" title="Edit section: Uncollectible">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/Uncollectible" title="Uncollectible">Uncollectible</a> weapons cannot be collected by players or directly placed into decks. However, they can be obtained during play through the effects of other cards.
+</p>
+<table class="wikitable sortable cardtable cardtable-collapsible cardtable-collapsed">
+
+<tr>
+<th style="width: 8.5em;" class="wideonly">Name
+</th>
+<th style="width: auto;" class="narrowonly">Name / Desc
+</th>
+<th style="width: 3.5em;">Rarity
+</th>
+<th style="width: 3.5em;">Class
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Cost
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Atk
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Dur
+</th>
+<th style="width: auto;" class="wideonly unsortable">Description
+</th></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Wicked_Knife" title="Wicked Knife">Wicked Knife</a>
+</td>
+<td class="narrowonly"><a href="/Wicked_Knife" title="Wicked Knife">Wicked Knife</a>
+</td>
+<td><span style="display: none;">{0</span><span class="free">Free</span>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 1 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Battle_Axe" title="Battle Axe">Battle Axe</a>
+</td>
+<td class="narrowonly"><a href="/Battle_Axe" title="Battle Axe">Battle Axe</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 2 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Blood_Fury" title="Blood Fury">Blood Fury</a>
+</td>
+<td class="narrowonly"><a href="/Blood_Fury" title="Blood Fury">Blood Fury</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="warlock-box"><span style="white-space: nowrap;"><img alt="Warlock icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/3/3f/Warlock_icon.png/16px-Warlock_icon.png?version=79ba7ab77059947dcd6bf0a9649de371" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/3/3f/Warlock_icon.png/24px-Warlock_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/3/3f/Warlock_icon.png 2x" />&#160;<span class="warlock">Warlock</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 3 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">8 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Heavy_Axe" title="Heavy Axe">Heavy Axe</a>
+</td>
+<td class="narrowonly"><a href="/Heavy_Axe" title="Heavy Axe">Heavy Axe</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 1 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"><a href="/Ashbringer" title="Ashbringer">Ashbringer</a>
+</td>
+<td class="narrowonly"><a href="/Ashbringer" title="Ashbringer">Ashbringer</a>
+</td>
+<td><span style="display: none;">{5</span><span class="legendary">Legendary</span>
+</td>
+<td class="paladin-box"><span style="white-space: nowrap;"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" />&#160;<span class="paladin">Paladin</span></span>
+</td>
+<td style="text-align: center;">5 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;"> 5 <img alt="Weapon-attack.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/98/Weapon-attack.png?version=1cf9be74182c2876420265a9aa3f234e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Weapon-durability.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/0/06/Weapon-durability.png?version=98dc36a3eb1abed9578302796d64555d" width="15" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly">
+</td></tr>
+<tr class="narrowonly expand-child">
+<td>
+</td></tr>
+<tr class="sortbottom">
+<td colspan="20" style="text-align: right;"><i>Showing all 5 cards</i>
+</td></tr></table><a href="/Wicked_Knife" title="Wicked Knife"><img alt="Wicked Knife(183).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/5/5e/Wicked_Knife%28183%29.png/200px-Wicked_Knife%28183%29.png?version=801ff3100cfc684d6900be4e7990dc21" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/5/5e/Wicked_Knife%28183%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/5/5e/Wicked_Knife%28183%29.png 2x" /></a><a href="/Battle_Axe" title="Battle Axe"><img alt="Battle Axe(403).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/f/f4/Battle_Axe%28403%29.png/200px-Battle_Axe%28403%29.png?version=aa781b816b8642856d28e5753c3ddcc1" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/f4/Battle_Axe%28403%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/f4/Battle_Axe%28403%29.png 2x" /></a><a href="/Blood_Fury" title="Blood Fury"><img alt="Blood Fury(669).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d9/Blood_Fury%28669%29.png/200px-Blood_Fury%28669%29.png?version=048f18ad4e1d6a6c8f748e83dc60bfa3" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d9/Blood_Fury%28669%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d9/Blood_Fury%28669%29.png 2x" /></a><a href="/Heavy_Axe" title="Heavy Axe"><img alt="Heavy Axe(583).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/7/78/Heavy_Axe%28583%29.png/200px-Heavy_Axe%28583%29.png?version=a633fb0a12c2be8ba9898b9ef3f06a4d" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/78/Heavy_Axe%28583%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/78/Heavy_Axe%28583%29.png 2x" /></a><a href="/Ashbringer" title="Ashbringer"><img alt="Ashbringer(53).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/2/23/Ashbringer%2853%29.png/200px-Ashbringer%2853%29.png?version=6d8dd8482c3ce5924fc2cb2cba341eee" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/23/Ashbringer%2853%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/23/Ashbringer%2853%29.png 2x" /></a>
+<h2><span class="mw-headline" id="Related_cards">Related cards</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Weapon&amp;veaction=edit&amp;section=6" title="Edit section: Related cards" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Weapon&amp;action=edit&amp;section=6" title="Edit section: Related cards">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable sortable cardtable cardtable-collapsible cardtable-collapsed">
+
+<tr>
+<th style="width: 8.5em;" class="wideonly">Name
+</th>
+<th style="width: auto;" class="narrowonly">Name / Desc
+</th>
+<th style="width: 3.5em;">Rarity
+</th>
+<th style="width: 3.5em;">Type
+</th>
+<th style="width: 3.5em;">Subtype
+</th>
+<th style="width: 3.5em;">Class
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Cost
+</th>
+<th style="width: 1.5em;" data-sort-type="number">Atk
+</th>
+<th style="width: 1.5em;" data-sort-type="number">HP
+</th>
+<th class="wideonly unsortable">Description
+</th></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Dagger_Mastery" title="Dagger Mastery">Dagger Mastery</a>
+</td>
+<td class="narrowonly"> <a href="/Dagger_Mastery" title="Dagger Mastery">Dagger Mastery</a>
+</td>
+<td><span style="display: none;">{0</span><span class="none">None</span>
+</td>
+<td> Hero Power
+</td>
+<td>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">2 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td class="wideonly"> <b>Hero Power</b> <br />Equip a 1/2 Dagger.
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Hero Power</b> <br />Equip a 1/2 Dagger.
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Deadly_Poison" title="Deadly Poison">Deadly Poison</a>
+</td>
+<td class="narrowonly"> <a href="/Deadly_Poison" title="Deadly Poison">Deadly Poison</a>
+</td>
+<td><span style="display: none;">{0</span><span class="free">Free</span>
+</td>
+<td> Spell
+</td>
+<td>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td class="wideonly"> Give your weapon +2 Attack. <i>Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> Give your weapon +2 Attack. <i>Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Acidic_Swamp_Ooze" title="Acidic Swamp Ooze">Acidic Swamp Ooze</a>
+</td>
+<td class="narrowonly"> <a href="/Acidic_Swamp_Ooze" title="Acidic Swamp Ooze">Acidic Swamp Ooze</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td> Minion
+</td>
+<td> <span class="ghost">General</span>
+</td>
+<td class="any-box"><span style="white-space: nowrap;"><img alt="Any icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/16px-Any_icon.png?version=f75f6a983d1eaa27971c9d78f1e54c6f" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/24px-Any_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d0/Any_icon.png 2x" />&#160;<span class="any">Any</span></span>
+</td>
+<td style="text-align: center;">2 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry:</b> Destroy your opponent's weapon. <i>Oozes love Flamenco.   Don't ask.</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry:</b> Destroy your opponent's weapon. <i>Oozes love Flamenco.   Don't ask.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Arathi_Weaponsmith" title="Arathi Weaponsmith">Arathi Weaponsmith</a>
+</td>
+<td class="narrowonly"> <a href="/Arathi_Weaponsmith" title="Arathi Weaponsmith">Arathi Weaponsmith</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td> Minion
+</td>
+<td> <span class="ghost">General</span>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">4 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry:</b> Equip a 2/2 weapon. <i>50% off fist weapons, limited time only!</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry:</b> Equip a 2/2 weapon. <i>50% off fist weapons, limited time only!</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Dread_Corsair" title="Dread Corsair">Dread Corsair</a>
+</td>
+<td class="narrowonly"> <a href="/Dread_Corsair" title="Dread Corsair">Dread Corsair</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td> Minion
+</td>
+<td> Pirate
+</td>
+<td class="any-box"><span style="white-space: nowrap;"><img alt="Any icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/16px-Any_icon.png?version=f75f6a983d1eaa27971c9d78f1e54c6f" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/24px-Any_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d0/Any_icon.png 2x" />&#160;<span class="any">Any</span></span>
+</td>
+<td style="text-align: center;">4 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Taunt.</b> Costs (1) less per Attack of your weapon. <i>"Yarrrr" is a pirate word that means "Greetings, milord."</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Taunt.</b> Costs (1) less per Attack of your weapon. <i>"Yarrrr" is a pirate word that means "Greetings, milord."</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Goblin_Auto-Barber" title="Goblin Auto-Barber">Goblin Auto-Barber</a>
+</td>
+<td class="narrowonly"> <a href="/Goblin_Auto-Barber" title="Goblin Auto-Barber">Goblin Auto-Barber</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td> Minion
+</td>
+<td> Mech
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">2 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry</b>: Give your weapon +1 Attack. <i>This guy is excellent at adjusting your haircut and/or height.</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry</b>: Give your weapon +1 Attack. <i>This guy is excellent at adjusting your haircut and/or height.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Southsea_Deckhand" title="Southsea Deckhand">Southsea Deckhand</a>
+</td>
+<td class="narrowonly"> <a href="/Southsea_Deckhand" title="Southsea Deckhand">Southsea Deckhand</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td> Minion
+</td>
+<td> Pirate
+</td>
+<td class="any-box"><span style="white-space: nowrap;"><img alt="Any icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/16px-Any_icon.png?version=f75f6a983d1eaa27971c9d78f1e54c6f" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/24px-Any_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d0/Any_icon.png 2x" />&#160;<span class="any">Any</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">1 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> Has <b>Charge</b> while you have a weapon equipped. <i>Pirates are into this new fad called "Planking".</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> Has <b>Charge</b> while you have a weapon equipped. <i>Pirates are into this new fad called "Planking".</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Tinker%27s_Sharpsword_Oil" title="Tinker's Sharpsword Oil">Tinker's Sharpsword Oil</a>
+</td>
+<td class="narrowonly"> <a href="/Tinker%27s_Sharpsword_Oil" title="Tinker's Sharpsword Oil">Tinker's Sharpsword Oil</a>
+</td>
+<td><span style="display: none;">{2</span><span class="common">Common</span>
+</td>
+<td> Spell
+</td>
+<td>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">4 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td class="wideonly"> Give your weapon +3 Attack. <b>Combo:</b> Give a random friendly minion +3 Attack. <i>"Get ready to strike oil!" - Super-cheesy battle cry</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> Give your weapon +3 Attack. <b>Combo:</b> Give a random friendly minion +3 Attack. <i>"Get ready to strike oil!" - Super-cheesy battle cry</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Blade_Flurry" title="Blade Flurry">Blade Flurry</a>
+</td>
+<td class="narrowonly"> <a href="/Blade_Flurry" title="Blade Flurry">Blade Flurry</a>
+</td>
+<td><span style="display: none;">{3</span><span class="rare">Rare</span>
+</td>
+<td> Spell
+</td>
+<td>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">2 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td class="wideonly"> Destroy your weapon and deal its damage to all enemies. <i>"Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that." - Shan, Rogue Trainer</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> Destroy your weapon and deal its damage to all enemies. <i>"Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that." - Shan, Rogue Trainer</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Bloodsail_Corsair" title="Bloodsail Corsair">Bloodsail Corsair</a>
+</td>
+<td class="narrowonly"> <a href="/Bloodsail_Corsair" title="Bloodsail Corsair">Bloodsail Corsair</a>
+</td>
+<td><span style="display: none;">{3</span><span class="rare">Rare</span>
+</td>
+<td> Minion
+</td>
+<td> Pirate
+</td>
+<td class="any-box"><span style="white-space: nowrap;"><img alt="Any icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/16px-Any_icon.png?version=f75f6a983d1eaa27971c9d78f1e54c6f" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/24px-Any_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d0/Any_icon.png 2x" />&#160;<span class="any">Any</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">1 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">2 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry:</b> Remove 1 Durability from your opponent's weapon. <i>Every pirate uses the same four digits to access Automated Gold Dispensers.  It's called the "Pirate's Code".</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry:</b> Remove 1 Durability from your opponent's weapon. <i>Every pirate uses the same four digits to access Automated Gold Dispensers.  It's called the "Pirate's Code".</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Muster_for_Battle" title="Muster for Battle">Muster for Battle</a>
+</td>
+<td class="narrowonly"> <a href="/Muster_for_Battle" title="Muster for Battle">Muster for Battle</a>
+</td>
+<td><span style="display: none;">{3</span><span class="rare">Rare</span>
+</td>
+<td> Spell
+</td>
+<td>
+</td>
+<td class="paladin-box"><span style="white-space: nowrap;"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" />&#160;<span class="paladin">Paladin</span></span>
+</td>
+<td style="text-align: center;">3 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td class="wideonly"> Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon. <i>"I'm bringing the guacamole!" – One of the most successful (yet rare) Silver Hand rallying cries</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon. <i>"I'm bringing the guacamole!" – One of the most successful (yet rare) Silver Hand rallying cries</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Upgrade!" title="Upgrade!">Upgrade!</a>
+</td>
+<td class="narrowonly"> <a href="/Upgrade!" title="Upgrade!">Upgrade!</a>
+</td>
+<td><span style="display: none;">{3</span><span class="rare">Rare</span>
+</td>
+<td> Spell
+</td>
+<td>
+</td>
+<td class="warrior-box"><span style="white-space: nowrap;"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" />&#160;<span class="warrior">Warrior</span></span>
+</td>
+<td style="text-align: center;">1 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td class="wideonly"> If you have a weapon, give it +1/+1.  Otherwise equip a 1/3 weapon. <i>Easily worth 50 DKP.</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> If you have a weapon, give it +1/+1.  Otherwise equip a 1/3 weapon. <i>Easily worth 50 DKP.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Sabotage" title="Sabotage">Sabotage</a>
+</td>
+<td class="narrowonly"> <a href="/Sabotage" title="Sabotage">Sabotage</a>
+</td>
+<td><span style="display: none;">{4</span><span class="epic">Epic</span>
+</td>
+<td> Spell
+</td>
+<td>
+</td>
+<td class="rogue-box"><span style="white-space: nowrap;"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" />&#160;<span class="rogue">Rogue</span></span>
+</td>
+<td style="text-align: center;">4 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">
+</td>
+<td style="text-align: center;">
+</td>
+<td class="wideonly"> Destroy a random enemy minion. <b>Combo</b>: And your opponent's weapon. <i>Rogues can't stand it. They know you planned it! They are going to set you straight!</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> Destroy a random enemy minion. <b>Combo</b>: And your opponent's weapon. <i>Rogues can't stand it. They know you planned it! They are going to set you straight!</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Blingtron_3000" title="Blingtron 3000">Blingtron 3000</a>
+</td>
+<td class="narrowonly"> <a href="/Blingtron_3000" title="Blingtron 3000">Blingtron 3000</a>
+</td>
+<td><span style="display: none;">{5</span><span class="legendary">Legendary</span>
+</td>
+<td> Minion
+</td>
+<td> Mech
+</td>
+<td class="any-box"><span style="white-space: nowrap;"><img alt="Any icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/16px-Any_icon.png?version=f75f6a983d1eaa27971c9d78f1e54c6f" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/24px-Any_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d0/Any_icon.png 2x" />&#160;<span class="any">Any</span></span>
+</td>
+<td style="text-align: center;">5 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">4 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry:</b> Equip a random weapon for each player. <i>PREPARE PARTY SERVOS FOR IMMEDIATE DEPLOYMENT.</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry:</b> Equip a random weapon for each player. <i>PREPARE PARTY SERVOS FOR IMMEDIATE DEPLOYMENT.</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Captain_Greenskin" title="Captain Greenskin">Captain Greenskin</a>
+</td>
+<td class="narrowonly"> <a href="/Captain_Greenskin" title="Captain Greenskin">Captain Greenskin</a>
+</td>
+<td><span style="display: none;">{5</span><span class="legendary">Legendary</span>
+</td>
+<td> Minion
+</td>
+<td> Pirate
+</td>
+<td class="any-box"><span style="white-space: nowrap;"><img alt="Any icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/16px-Any_icon.png?version=f75f6a983d1eaa27971c9d78f1e54c6f" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/24px-Any_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d0/Any_icon.png 2x" />&#160;<span class="any">Any</span></span>
+</td>
+<td style="text-align: center;">5 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">5 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">4 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry:</b> Give your weapon +1/+1. <i>He was <i>this close</i> to piloting a massive juggernaut into Stormwind Harbor. If it weren't for those pesky kids!</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry:</b> Give your weapon +1/+1. <i>He was <i>this close</i> to piloting a massive juggernaut into Stormwind Harbor. If it weren't for those pesky kids!</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Harrison_Jones" title="Harrison Jones">Harrison Jones</a>
+</td>
+<td class="narrowonly"> <a href="/Harrison_Jones" title="Harrison Jones">Harrison Jones</a>
+</td>
+<td><span style="display: none;">{5</span><span class="legendary">Legendary</span>
+</td>
+<td> Minion
+</td>
+<td> <span class="ghost">General</span>
+</td>
+<td class="any-box"><span style="white-space: nowrap;"><img alt="Any icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/16px-Any_icon.png?version=f75f6a983d1eaa27971c9d78f1e54c6f" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d0/Any_icon.png/24px-Any_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d0/Any_icon.png 2x" />&#160;<span class="any">Any</span></span>
+</td>
+<td style="text-align: center;">5 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">5 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">4 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry:</b> Destroy your opponent's weapon and draw cards equal to its Durability. <i>“That belongs in the Hall of Explorers!”</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry:</b> Destroy your opponent's weapon and draw cards equal to its Durability. <i>“That belongs in the Hall of Explorers!”</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Lord_Jaraxxus" title="Lord Jaraxxus">Lord Jaraxxus</a>
+</td>
+<td class="narrowonly"> <a href="/Lord_Jaraxxus" title="Lord Jaraxxus">Lord Jaraxxus</a>
+</td>
+<td><span style="display: none;">{5</span><span class="legendary">Legendary</span>
+</td>
+<td> Minion
+</td>
+<td> Demon
+</td>
+<td class="warlock-box"><span style="white-space: nowrap;"><img alt="Warlock icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/3/3f/Warlock_icon.png/16px-Warlock_icon.png?version=79ba7ab77059947dcd6bf0a9649de371" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/3/3f/Warlock_icon.png/24px-Warlock_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/3/3f/Warlock_icon.png 2x" />&#160;<span class="warlock">Warlock</span></span>
+</td>
+<td style="text-align: center;">9 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">3 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">15 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Battlecry:</b> Destroy your hero and replace it with Lord Jaraxxus. <i>"TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!"</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Battlecry:</b> Destroy your hero and replace it with Lord Jaraxxus. <i>"TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!"</i>
+</td></tr>
+<tr style="vertical-align: top;">
+<td class="wideonly"> <a href="/Tirion_Fordring" title="Tirion Fordring">Tirion Fordring</a>
+</td>
+<td class="narrowonly"> <a href="/Tirion_Fordring" title="Tirion Fordring">Tirion Fordring</a>
+</td>
+<td><span style="display: none;">{5</span><span class="legendary">Legendary</span>
+</td>
+<td> Minion
+</td>
+<td> <span class="ghost">General</span>
+</td>
+<td class="paladin-box"><span style="white-space: nowrap;"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" />&#160;<span class="paladin">Paladin</span></span>
+</td>
+<td style="text-align: center;">8 <img alt="Mana icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/8/8b/Mana_icon.png?version=4922492a9e90aa7bf601de851b619f6e" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">6 <img alt="Attack icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/f/fe/Attack_icon.png?version=e56695262879d13ffed1b51f24d420fa" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td style="text-align: center;">6 <img alt="Health icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Health_icon.png?version=bb42f8f8924b8253f93fad131950d17f" width="16" height="16" style="vertical-align: baseline" />
+</td>
+<td class="wideonly"> <b>Divine Shield</b>. <b>Taunt</b>. <b>Deathrattle:</b> Equip a 5/3 Ashbringer. <i>If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.</i>
+</td></tr>
+<tr class="narrowonly">
+<td colspan="10" style="padding-left: 4em;"> <b>Divine Shield</b>. <b>Taunt</b>. <b>Deathrattle:</b> Equip a 5/3 Ashbringer. <i>If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.</i>
+</td></tr>
+<tr class="sortbottom">
+<td colspan="20" style="text-align: right;"><i>Showing all 18 cards</i>
+</td></tr></table><a href="/Dagger_Mastery" title="Dagger Mastery"><img alt="Dagger Mastery(201).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/2/2a/Dagger_Mastery%28201%29.png/200px-Dagger_Mastery%28201%29.png?version=b302ff256d986b5fd1ce357afde90c24" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/2a/Dagger_Mastery%28201%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/2a/Dagger_Mastery%28201%29.png 2x" /></a><a href="/Deadly_Poison" title="Deadly Poison"><img alt="Deadly Poison(87).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/96/Deadly_Poison%2887%29.png/200px-Deadly_Poison%2887%29.png?version=5b2cbac18af66f943fb111579b2c86f0" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/96/Deadly_Poison%2887%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/96/Deadly_Poison%2887%29.png 2x" /></a><a href="/Acidic_Swamp_Ooze" title="Acidic Swamp Ooze"><img alt="Acidic Swamp Ooze(74).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/4/48/Acidic_Swamp_Ooze%2874%29.png/200px-Acidic_Swamp_Ooze%2874%29.png?version=24d3174c4984dfd46c921ee8e768b424" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/4/48/Acidic_Swamp_Ooze%2874%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/4/48/Acidic_Swamp_Ooze%2874%29.png 2x" /></a><a href="/Arathi_Weaponsmith" title="Arathi Weaponsmith"><img alt="Arathi Weaponsmith(504).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/5/5f/Arathi_Weaponsmith%28504%29.png/200px-Arathi_Weaponsmith%28504%29.png?version=a3ca9a073e133faa43883a1a29c6b5c2" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/5/5f/Arathi_Weaponsmith%28504%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/5/5f/Arathi_Weaponsmith%28504%29.png 2x" /></a><a href="/Dread_Corsair" title="Dread Corsair"><img alt="Dread Corsair(261).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/7/74/Dread_Corsair%28261%29.png/200px-Dread_Corsair%28261%29.png?version=0a4187971f2f29a11468f05313526ace" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/74/Dread_Corsair%28261%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/74/Dread_Corsair%28261%29.png 2x" /></a><a href="/Goblin_Auto-Barber" title="Goblin Auto-Barber"><img alt="Goblin Auto-Barber(12212).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Goblin_Auto-Barber%2812212%29.png/200px-Goblin_Auto-Barber%2812212%29.png?version=b457f35134acd70ce931ad34a6f16b04" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Goblin_Auto-Barber%2812212%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Goblin_Auto-Barber%2812212%29.png 2x" /></a><a href="/Southsea_Deckhand" title="Southsea Deckhand"><img alt="Southsea Deckhand(103).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/b/bd/Southsea_Deckhand%28103%29.png/200px-Southsea_Deckhand%28103%29.png?version=18a590e509c893410d7df2315493e836" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/b/bd/Southsea_Deckhand%28103%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/b/bd/Southsea_Deckhand%28103%29.png 2x" /></a><a href="/Tinker%27s_Sharpsword_Oil" title="Tinker&#39;s Sharpsword Oil"><img alt="Tinker&#39;s Sharpsword Oil(12276).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/ca/Tinker%27s_Sharpsword_Oil%2812276%29.png/200px-Tinker%27s_Sharpsword_Oil%2812276%29.png?version=e5393f544b1737e4090f39b5511237f4" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/ca/Tinker%27s_Sharpsword_Oil%2812276%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/ca/Tinker%27s_Sharpsword_Oil%2812276%29.png 2x" /></a><a href="/Blade_Flurry" title="Blade Flurry"><img alt="Blade Flurry(244).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/6/69/Blade_Flurry%28244%29.png/200px-Blade_Flurry%28244%29.png?version=2387acfd642fe1d85fc64f80d4e59484" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/6/69/Blade_Flurry%28244%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/6/69/Blade_Flurry%28244%29.png 2x" /></a><a href="/Bloodsail_Corsair" title="Bloodsail Corsair"><img alt="Bloodsail Corsair(453).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/d8/Bloodsail_Corsair%28453%29.png/200px-Bloodsail_Corsair%28453%29.png?version=8c24f37ec634255c79e87facf1344338" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d8/Bloodsail_Corsair%28453%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/d8/Bloodsail_Corsair%28453%29.png 2x" /></a><a href="/Muster_for_Battle" title="Muster for Battle"><img alt="Muster for Battle(12223).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/7/70/Muster_for_Battle%2812223%29.png/200px-Muster_for_Battle%2812223%29.png?version=10daf979356188369390ed44bc7c0186" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/70/Muster_for_Battle%2812223%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/70/Muster_for_Battle%2812223%29.png 2x" /></a><a href="/Upgrade!" title="Upgrade!"><img alt="Upgrade!(638).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/e/ea/Upgrade%21%28638%29.png/200px-Upgrade%21%28638%29.png?version=739badd2f01f7a2e08fb64185137f2d3" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/ea/Upgrade%21%28638%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/e/ea/Upgrade%21%28638%29.png 2x" /></a><a href="/Sabotage" title="Sabotage"><img alt="Sabotage(12236).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/cd/Sabotage%2812236%29.png/200px-Sabotage%2812236%29.png?version=744ab3b7b0a2271b8186db5ddd017222" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/cd/Sabotage%2812236%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/cd/Sabotage%2812236%29.png 2x" /></a><a href="/Blingtron_3000" title="Blingtron 3000"><img alt="Blingtron 3000(12183).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/2/2c/Blingtron_3000%2812183%29.png/200px-Blingtron_3000%2812183%29.png?version=0bad79d0157ad5bef0c28316f9f2c08c" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/2c/Blingtron_3000%2812183%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/2c/Blingtron_3000%2812183%29.png 2x" /></a><a href="/Captain_Greenskin" title="Captain Greenskin"><img alt="Captain Greenskin(267).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/b/ba/Captain_Greenskin%28267%29.png/200px-Captain_Greenskin%28267%29.png?version=8aec867d7bd12c81e19bb313ec05b240" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/b/ba/Captain_Greenskin%28267%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/b/ba/Captain_Greenskin%28267%29.png 2x" /></a><a href="/Harrison_Jones" title="Harrison Jones"><img alt="Harrison Jones(602).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/3/31/Harrison_Jones%28602%29.png/200px-Harrison_Jones%28602%29.png?version=c39ac0d1908735c862579d657fe30b29" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/3/31/Harrison_Jones%28602%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/3/31/Harrison_Jones%28602%29.png 2x" /></a><a href="/Lord_Jaraxxus" title="Lord Jaraxxus"><img alt="Lord Jaraxxus(482).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/1/17/Lord_Jaraxxus%28482%29.png/200px-Lord_Jaraxxus%28482%29.png?version=f4a4bebbeb234557cd070d45166f8a58" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Lord_Jaraxxus%28482%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/1/17/Lord_Jaraxxus%28482%29.png 2x" /></a><a href="/Tirion_Fordring" title="Tirion Fordring"><img alt="Tirion Fordring(391).png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/2/21/Tirion_Fordring%28391%29.png/200px-Tirion_Fordring%28391%29.png?version=b31c71f475ee48ce6daff6ee76cd97b2" width="200" height="276" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/21/Tirion_Fordring%28391%29.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/21/Tirion_Fordring%28391%29.png 2x" /></a>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Weapon&amp;veaction=edit&amp;section=7" title="Edit section: References" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Weapon&amp;amp;action=edit&amp;section=7" title="Edit section: References">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" target="_blank" class="external text" href="https://twitter.com/bdbrode/status/532591935400071169">Ben Brode on Twitter</a>. (2014-11-12).</span>
+</li>
+</ol>
+<p><br />
+</p>
+<table class="nav">
+
+<tr>
+<th width="125px" align="center"> </th>
+<th> Cards
+</th></tr>
+<tr>
+<th> By type
+</th>
+<td class="list" style="text-align: center;"><div class="item"><a href="/Minion" title="Minion">Minion cards</a></div><div class="item"><a href="/Spell" title="Spell">Spell cards</a></div><div class="item"><strong class="selflink">Weapon cards</strong></div>
+</td></tr>
+<tr>
+<th> By class
+</th>
+<td class="list" style="text-align: center;"><div class="item"><img alt="Druid icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/7/75/Druid_icon.png/16px-Druid_icon.png?version=9796f70021410cb89e90a88032027a75" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/7/75/Druid_icon.png/24px-Druid_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/7/75/Druid_icon.png 2x" /> <a href="/Druid" title="Druid">Druid</a></div><div class="item"><img alt="Hunter icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/16px-Hunter_icon.png?version=9992604b045602697d0b8354f78c6bcb" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/d/dd/Hunter_icon.png/24px-Hunter_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/d/dd/Hunter_icon.png 2x" /> <a href="/Hunter" title="Hunter">Hunter</a></div><div class="item"><img alt="Mage icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/2/28/Mage_icon.png/16px-Mage_icon.png?version=aedb86262e916b328b6b21b90fd23fac" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/2/28/Mage_icon.png/24px-Mage_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/2/28/Mage_icon.png 2x" /> <a href="/Mage" title="Mage">Mage</a></div><div class="item"><img alt="Paladin icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/16px-Paladin_icon.png?version=67fab87d14a86f08a160aa432660a259" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/9/9b/Paladin_icon.png/24px-Paladin_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/9/9b/Paladin_icon.png 2x" /> <a href="/Paladin" title="Paladin">Paladin</a></div><div class="item"><img alt="Priest icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/5/54/Priest_icon.png/16px-Priest_icon.png?version=12065da8ef9ba35eb5050195c74fd842" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/5/54/Priest_icon.png/24px-Priest_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/5/54/Priest_icon.png 2x" /> <a href="/Priest" title="Priest">Priest</a></div><div class="item"><img alt="Rogue icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/16px-Rogue_icon.png?version=00fdc7e356b86453c4835b724748a389" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c0/Rogue_icon.png/24px-Rogue_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c0/Rogue_icon.png 2x" /> <a href="/Rogue" title="Rogue">Rogue</a></div><div class="item"><img alt="Shaman icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/16px-Shaman_icon.png?version=0be8741a7d54228b67e790bb8b570374" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/a/a8/Shaman_icon.png/24px-Shaman_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/a/a8/Shaman_icon.png 2x" /> <a href="/Shaman" title="Shaman">Shaman</a></div><div class="item"><img alt="Warlock icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/3/3f/Warlock_icon.png/16px-Warlock_icon.png?version=79ba7ab77059947dcd6bf0a9649de371" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/3/3f/Warlock_icon.png/24px-Warlock_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/3/3f/Warlock_icon.png 2x" /> <a href="/Warlock" title="Warlock">Warlock</a></div><div class="item"><img alt="Warrior icon.png" src="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/16px-Warrior_icon.png?version=57a885b3dd47384f196adaeac5b221b0" width="16" height="16" style="vertical-align: baseline" srcset="http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/thumb/c/c8/Warrior_icon.png/24px-Warrior_icon.png 1.5x, http://hydra-media.cursecdn.com/hearthstone.gamepedia.com/c/c8/Warrior_icon.png 2x" /> <a href="/Warrior" title="Warrior">Warrior</a></div>
+</td></tr>
+<tr>
+<th> By minion type
+</th>
+<td class="list" style="text-align: center;"><div class="item"><a href="/Beast" title="Beast">Beast</a></div><div class="item"><a href="/Demon" title="Demon">Demon</a></div><div class="item"><a href="/Dragon" title="Dragon">Dragon</a></div><div class="item"><a href="/Mech" title="Mech">Mech</a></div><div class="item"><a href="/Murloc" title="Murloc">Murloc</a></div><div class="item"><a href="/Pirate" title="Pirate">Pirate</a></div><div class="item"><a href="/Totem" title="Totem">Totem</a></div><div class="item"><a href="/General_minion_cards" title="General minion cards">General</a></div>
+</td></tr>
+<tr>
+<th> By ability
+</th>
+<td class="list" style="text-align: center;"><div class="item"><a href="/Battlecry" title="Battlecry">Battlecry</a></div><div class="item"><a href="/Charge_(ability)" title="Charge (ability)">Charge</a></div><div class="item"><a href="/Choose_One" title="Choose One">Choose One</a></div><div class="item"><a href="/Clumsy" title="Clumsy">Clumsy</a></div><div class="item"><a href="/Combo" title="Combo">Combo</a></div><div class="item"><a href="/Copy" title="Copy">Copy</a></div><div class="item"><a href="/Damage" title="Damage">Deal damage</a></div><div class="item"><a href="/Deathrattle" title="Deathrattle">Deathrattle</a></div><div class="item"><a href="/Destroy" title="Destroy">Destroy</a></div><div class="item"><a href="/Discard_effect" title="Discard effect">Discard</a></div><div class="item"><a href="/Divine_Shield" title="Divine Shield">Divine Shield</a></div><div class="item"><a href="/Card_draw" title="Card draw">Draw cards</a></div><div class="item"><a href="/Elusive" title="Elusive">Elusive</a></div><div class="item"><a href="/Enrage" title="Enrage">Enrage</a></div><div class="item"><a href="/Equip" title="Equip">Equip</a></div><div class="item"><a href="/Freeze_(ability)" title="Freeze (ability)">Freeze</a></div><div class="item"><a href="/Generate_effect" title="Generate effect">Generate</a></div><div class="item"><a href="/Immune" title="Immune">Immune</a></div><div class="item"><a href="/Overload" title="Overload">Overload</a></div><div class="item"><a href="/Put_into_battlefield" title="Put into battlefield" class="mw-redirect">Put into battlefield</a></div><div class="item"><a href="/Put_into_hand" title="Put into hand">Put into hand</a></div><div class="item"><a href="/Healing" title="Healing">Restore Health</a></div><div class="item"><a href="/Return_effect" title="Return effect">Return</a></div><div class="item"><a href="/Secret" title="Secret">Secret</a></div><div class="item"><a href="/Silence_(ability)" title="Silence (ability)">Silence</a></div><div class="item"><a href="/Stealth" title="Stealth">Stealth</a></div><div class="item"><a href="/Spell_Damage" title="Spell Damage">Spell Damage</a></div><div class="item"><a href="/Shuffle_into_deck" title="Shuffle into deck">Shuffle into deck</a></div><div class="item"><a href="/Summon" title="Summon">Summon</a></div><div class="item"><a href="/Taunt" title="Taunt">Taunt</a></div><div class="item"><a href="/Take_control" title="Take control" class="mw-redirect">Take control</a></div><div class="item"><a href="/Transform" title="Transform">Transform</a></div><div class="item"><a href="/Windfury_(ability)" title="Windfury (ability)">Windfury</a></div>
+</td></tr>
+<tr>
+<th> By effect type
+</th>
+<td class="list" style="text-align: center;"><div class="item"><a href="/Area_of_effect" title="Area of effect">Area of effect</a></div><div class="item"><a href="/In-hand_effect" title="In-hand effect">In-hand effect</a></div><div class="item"><a href="/On-draw_effect" title="On-draw effect">On-draw effect</a></div><div class="item"><a href="/Ongoing_effect" title="Ongoing effect">Ongoing effect</a></div><div class="item"><a href="/Positional_effect" title="Positional effect">Positional effect</a></div><div class="item"><a href="/Random_effect" title="Random effect">Random effect</a></div><div class="item"><a href="/Triggered_effect" title="Triggered effect">Triggered effect</a></div>
+</td></tr>
+<tr>
+<th> By card set
+</th>
+<td class="list" style="text-align:center;"><div class="item"><a href="/Basic_card_list" title="Basic card list">Basic</a></div><div class="item"><a href="/Classic_card_list" title="Classic card list">Classic</a></div><div class="item"><a href="/Goblins_vs_Gnomes_card_list" title="Goblins vs Gnomes card list">Goblins vs Gnomes</a></div><div class="item"><a href="/Naxxramas_card_list" title="Naxxramas card list">Naxxramas</a></div><div class="item"><a href="/Blackrock_Mountain_card_list" title="Blackrock Mountain card list">Blackrock Mountain</a></div><div class="item"><a href="/Reward_card_list" title="Reward card list">Reward</a></div><div class="item"><a href="/Promo_card_list" title="Promo card list">Promo</a></div>
+</td></tr>
+<tr>
+<th> By rarity
+</th>
+<td class="list" style="text-align:center;"><div class="item"><a href="/Free_card_list" title="Free card list">Free</a></div><div class="item"><a href="/Common_card_list" title="Common card list">Common</a></div><div class="item"><a href="/Rare_card_list" title="Rare card list">Rare</a></div><div class="item"><a href="/Epic_card_list" title="Epic card list">Epic</a></div><div class="item"><a href="/Legendary_card_list" title="Legendary card list">Legendary</a></div>
+</td></tr></table>
+
+<!-- 
+NewPP limit report
+CPU time usage: 2.339 seconds
+Real time usage: 3.270 seconds
+Preprocessor visited node count: 7964/1000000
+Preprocessor generated node count: 10817/1000000
+Post‐expand include size: 184835/2097152 bytes
+Template argument size: 29000/2097152 bytes
+Highest expansion depth: 10/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key hearthstone_gamepedia:pcache:idhash:1147-0!*!0!!en!2!* and timestamp 20150718155717 and revision id 138998
+ -->
+</div>												<div class="printfooter">
+						Retrieved from "<a href="http://hearthstone.gamepedia.com/index.php?title=Weapon&amp;oldid=138998">http://hearthstone.gamepedia.com/index.php?title=Weapon&amp;oldid=138998</a>"						</div>
+																		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/index.php?title=Category:Card_lists&amp;action=edit&amp;redlink=1" class="new" title="Category:Card lists (page does not exist)">Card lists</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden category: <ul><li><a href="/Category:Queries_card_data" title="Category:Queries card data">Queries card data</a></li></ul></div></div>																		<div class="visualClear"></div>
+											</div>
+					<!-- /bodyContent -->
+				</div>
+				<!-- second ad placement -->
+								<div class="btflb">
+					<div id='cdm-zone-04'></div>				</div>
+								<!-- /second ad placement -->
+			</div>
+			<!-- /content -->
+			<div id="footer" role="contentinfo">
+									<ul id="footer-info">
+													<li id="footer-info-lastmod"> This page was last modified on <time itemprop="datePublished" datetime="2015-21-06T12:54">21 June 2015, at 12:54</time>.</li>
+													<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted.  Hearthstone content and materials are trademarks and copyrights of Blizzard and its licensors.  All rights reserved.<br />
+This site is a part of Curse, Inc. and is not affiliated with Blizzard.</li>
+											</ul>
+									<ul id="footer-places">
+													<li id="footer-places-privacy"><a href="/Hearthstone_Wiki:Privacy_policy" title="Hearthstone Wiki:Privacy policy">Privacy policy</a></li>
+													<li id="footer-places-about"><a href="/Hearthstone_Wiki:About" title="Hearthstone Wiki:About">About Hearthstone: Heroes of Warcraft Wiki</a></li>
+													<li id="footer-places-disclaimer"><a href="/Hearthstone_Wiki:General_disclaimer" title="Hearthstone Wiki:General disclaimer">Disclaimers</a></li>
+													<li id="footer-places-mobileview"><a href="//hearthstone.gamepedia.com/index.php?title=Weapon&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+											</ul>
+													<ul id="footer-icons" class="noprint">
+						<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="CC BY-NC-SA 3.0" width="88" height="31" /></a>
+						</li>
+						<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+							<a href="http://help.gamepedia.com/What_is_Hydra"><img src="/extensions/Curse/Icons/poweredbyhydra.png" alt="Powered by Hydra" width="88" height="31" /></a>
+							<a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../resources/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31" /></a>
+						</li>
+					</ul>
+								<div style="clear:both"></div>
+			</div>
+		</div>
+		<div id="footer-push"></div>
+	</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.Social","ext.cite","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Abios_Match_Calendar","ext.vector.collapsibleNav","ext.curse.twitter","mw.MwEmbedSupport.style"],null,true);
+}</script>
+<script src="/index.php?title=MediaWiki:Gadget-Countdown.js&amp;action=raw&amp;ctype=text/javascript&amp;110977"></script>
+<script src="/index.php?title=MediaWiki:Gadget-Abios-match-calendar.js&amp;action=raw&amp;ctype=text/javascript&amp;129379"></script>
+<script src="//hearthstone.gamepedia.com/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=hydra&amp;*"></script>
+<footer id="footer" role="complimentary" >
+	<div class="footer-links">
+				<a href="http://www.gamepedia.com" class="curse">Gamepedia powered by Curse</a>
+		<ul class="social">
+			<li><a href="https://www.facebook.com/CurseGamepedia" class="fb">Facebook</a></li>
+			<li><a href="https://twitter.com/CurseGamepedia" class="tw">Twitter</a></li>
+			<li><a href="https://www.youtube.com/CurseGP" class="yt">Youtube</a></li>
+			<li><a href="http://www.curse.com/newsletter" class="nl">Newsletter</a></li>
+		</ul>
+					<ul class="you">
+									<li><a href="/index.php?title=Special:UserLogin&returnto=Weapon" id="login-link" class="sign-in">Sign In</a></li>
+									<li><a href="/index.php?title=Special:UserLogin&returnto=Weapon&type=signup" class="register" id="register-link">Register</a></li>
+										<li><a href="http://www.curseinc.com/careers" class="careers">Careers</a></li>
+			<li><a href="http://support.curse.com" class="help">Help</a></li>
+					</ul>
+			<ul class="more">
+					<li><a href="http://www.curseinc.com/" class="about">About Curse</a></li>
+			<li><a href="http://www.curseinc.com/audience" class="advertise">Advertise</a></li>
+			<li><a href="http://www.curse.com/terms" class="tos">Terms of Service</a></li>
+			<li><a href="http://www.curse.com/privacy" class="privacy-policy">Privacy Policy</a></li>
+		</ul>
+		<span class="copyright">Copyright 2005-2015, Curse Inc.</span>
+	</div>
+			<div class="ad-placement ad-main-med-rect-footer">
+			<div id='cdm-zone-03'></div>		</div>
+	</footer>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(
+        ['_setAccount', 'UA-38793428-27'],
+        ['_setDomainName', 'gamepedia.com'],
+        ['_addIgnoredRef', 'gamepedia.com'],
+        ['_trackPageview'],
+        ['b._setAccount', 'UA-1045810-22'],
+        ['b._setDomainName', 'gamepedia.com'],
+        ['b._addIgnoredRef', 'gamepedia.com'],
+        ['b._trackPageview'],
+        ['c._setAccount', 'UA-35871056-4'],
+        ['c._setDomainName', 'gamepedia.com'],
+        ['c._addIgnoredRef', 'gamepedia.com'],
+        ['c._trackPageview']
+
+);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End Google Analytics -->
+<!-- Begin comScore -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035118" });
+(function() {
+	var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035118&amp;cv=2.0&amp;cj=1" />
+</noscript>
+<!-- End comScore -->
+
+<!-- Begin Nielsen -->
+<script type="text/javascript">
+(function () {
+	var d = new Image(1, 1);
+	d.onerror = d.onload = function () {
+		d.onerror = d.onload = null;
+	};
+	d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+<div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- End Nielsen -->
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":405});
+}</script>
+		<!-- Lotame -->
+<script src="http://tags.crwdcntrl.net/c/3613/cc.js?ns=_cc3613" id="LOTCC_3613"></script>
+<script>
+_cc3613.bcp();
+</script>
+<img src="http://bcp.crwdcntrl.net/5/c=3613" width="1" height="1"/>
+<!-- End Lotame -->
+
+<!--Adblock Check--> 
+<script type="text/javascript" src="http://media.curse.com/Content/Ads/JS/BSAds3.js"></script> <script type="text/javascript"> jQuery(document).ready(checkAds()); function checkAds(){if (document.getElementById('adsense')!=undefined){document.write("<script>_gaq.push(['_trackEvent', 'Adblock', 'Unblocked', 'false',,true]);</sc" + "ript>");}else{document.write("<script>_gaq.push(['_trackEvent', 'Adblock', 'Blocked', 'true',,true]);</sc" + "ript>");}} </script>
+ <!--End Adblock Check-->
+<!-- Start PubMP -->
+<script type="text/javascript" src="http://ads.pubmatic.com/AdServer/js/showad.js#PIX&ptask=DSP&SPug=1"></script> 
+<!-- End PubMP -->
+
+<div id='cdm-zone-end'></div>			<script src="http://media-titanium.cursecdn.com/shared-assets/current/anchor.js?id=2757821"></script>
+			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"75f4858b7a","applicationID":"1909498","transactionName":"YlVXbREHWksEUkVdCVsfYEsKSV1WAVRJGhZdQA==","queueTime":0,"applicationTime":490,"ttGuid":"","agentToken":"","atts":"ThJUG1kdSUU=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</html>
+

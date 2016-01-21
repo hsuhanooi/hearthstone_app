@@ -1,0 +1,600 @@
+Acidic Swamp Ooze	Basic	Common	2	3	2	<b>Battlecry:</b> Destroy your opponent's weapon.				Battlecry
+Ancestral Healing	Basic	Free	0			Restore a minion to full Health and give it <b>Taunt</b>.	Shaman			
+Anduin Wrynn	Basic	Free			30		Priest			
+Animal Companion	Basic	Common	3			Summon a random Beast Companion.	Hunter			
+Arcane Explosion	Basic	Free	2			Deal $1 damage to all enemy minions.	Mage			
+Arcane Intellect	Basic	Free	3			Draw 2 cards.	Mage			
+Arcane Missiles	Basic	Free	1			Deal $3 damage randomly split among all enemies.	Mage			ImmuneToSpellpower
+Arcane Shot	Basic	Free	1			Deal $2 damage.	Hunter			
+Arcanite Reaper	Basic	Common	5	5			Warrior	2		
+Archmage	Basic	Common	6	4	7	<b>Spell Damage +1</b>				Spellpower
+Assassin's Blade	Basic	Common	5	3			Rogue	4		
+Assassinate	Basic	Free	5			Destroy an enemy minion.	Rogue			
+Backstab	Basic	Free	0			Deal $2 damage to an undamaged minion.	Rogue			
+Blessing of Kings	Basic	Common	4			Give a minion +4/+4. <i>(+4 Attack/+4 Health)</i>	Paladin			
+Blessing of Might	Basic	Free	1			Give a minion +3 Attack.	Paladin			
+Bloodfen Raptor	Basic	Free	2	3	2				Beast	
+Bloodlust	Basic	Common	5			Give your minions +3 Attack this turn.	Shaman			
+Bluegill Warrior	Basic	Common	2	2	1	<b>Charge</b>			Murloc	Charge
+Booty Bay Bodyguard	Basic	Common	5	5	4	<b>Taunt</b>				Taunt
+Boulderfist Ogre	Basic	Free	6	6	7					
+Charge	Basic	Free	3			Give a friendly minion +2 Attack and <b>Charge</b>.	Warrior			
+Chillwind Yeti	Basic	Common	4	4	5					
+Claw	Basic	Free	1			Give your hero +2 Attack this turn and 2 Armor.	Druid			
+Cleave	Basic	Common	2			Deal $2 damage to two random enemy minions.	Warrior			
+Consecration	Basic	Common	4			Deal $2 damage to all enemies.	Paladin			
+Core Hound	Basic	Common	7	9	5				Beast	
+Corruption	Basic	Common	1			Choose an enemy minion. At the start of your turn, destroy it.	Warlock			
+Dalaran Mage	Basic	Common	3	1	4	<b>Spell Damage +1</b>				Spellpower
+Darkscale Healer	Basic	Common	5	4	5	<b>Battlecry:</b> Restore 2 Health to all friendly characters.				Battlecry
+Deadly Poison	Basic	Free	1			Give your weapon +2 Attack.	Rogue			
+Divine Spirit	Basic	Common	2			Double a minion's Health.	Priest			
+Dragonling Mechanic	Basic	Common	4	2	4	<b>Battlecry:</b> Summon a 2/1 Mechanical Dragonling.				Battlecry
+Drain Life	Basic	Free	3			Deal $2 damage. Restore #2 Health to your hero.	Warlock			
+Dread Infernal	Basic	Common	6	6	6	<b>Battlecry:</b> Deal 1 damage to ALL other characters.	Warlock		Demon	Battlecry
+Elven Archer	Basic	Common	1	1	1	<b>Battlecry:</b> Deal 1 damage.				Battlecry
+Execute	Basic	Free	1			Destroy a damaged enemy minion.	Warrior			
+Fan of Knives	Basic	Common	3			Deal $1 damage to all enemy minions. Draw a card.	Rogue			
+Fiery War Axe	Basic	Free	2	3			Warrior	2		
+Fire Elemental	Basic	Common	6	6	5	<b>Battlecry:</b> Deal 3 damage.	Shaman			Battlecry
+Fireball	Basic	Free	4			Deal $6 damage.	Mage			
+Flamestrike	Basic	Common	7			Deal $4 damage to all enemy minions.	Mage			
+Flametongue Totem	Basic	Common	2	0	3	Adjacent minions have +2 Attack.	Shaman		Totem	AdjacentBuff,Aura
+Frost Nova	Basic	Common	3			<b>Freeze</b> all enemy minions.	Mage			Freeze
+Frost Shock	Basic	Free	1			Deal $1 damage to an enemy character and <b>Freeze</b> it.	Shaman			Freeze
+Frostbolt	Basic	Common	2			Deal $3 damage to a character and <b>Freeze</b> it.	Mage			Freeze
+Frostwolf Grunt	Basic	Common	2	2	2	<b>Taunt</b>				Taunt
+Frostwolf Warlord	Basic	Common	5	4	4	<b>Battlecry:</b> Gain +1/+1 for each other friendly minion on the battlefield.				Battlecry
+Garrosh Hellscream	Basic	Free			30		Warrior			
+Gnomish Inventor	Basic	Common	4	2	4	<b>Battlecry:</b> Draw a card.				Battlecry
+Goldshire Footman	Basic	Common	1	1	2	<b>Taunt</b>				Taunt
+Grimscale Oracle	Basic	Common	1	1	1	ALL other Murlocs have +1 Attack.			Murloc	Aura
+Guardian of Kings	Basic	Common	7	5	6	<b>Battlecry:</b> Restore 6 Health to your hero.	Paladin			Battlecry
+Gul'dan	Basic	Free			30		Warlock			
+Gurubashi Berserker	Basic	Common	5	2	7	Whenever this minion takes damage, gain +3 Attack.				
+Hammer of Wrath	Basic	Free	4			Deal $3 damage.
+Draw a card.	Paladin			
+Hand of Protection	Basic	Free	1			Give a minion <b>Divine Shield</b>.	Paladin			
+Healing Touch	Basic	Free	3			Restore #8 Health.	Druid			
+Hellfire	Basic	Free	4			Deal $3 damage to ALL characters.	Warlock			
+Heroic Strike	Basic	Free	2			Give your hero +4 Attack this turn.	Warrior			
+Hex	Basic	Free	3			Transform a minion into a 0/1 Frog with <b>Taunt</b>.	Shaman			
+Holy Light	Basic	Free	2			Restore #6 Health.	Paladin			
+Holy Nova	Basic	Common	5			Deal $2 damage to all enemies. Restore #2 Health to all friendly characters.	Priest			
+Holy Smite	Basic	Free	1			Deal $2 damage.	Priest			
+Houndmaster	Basic	Free	4	4	3	<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.	Hunter			Battlecry
+Humility	Basic	Common	1			Change a minion's Attack to 1.	Paladin			
+Hunter's Mark	Basic	Common	0			Change a minion's Health to 1.	Hunter			
+Innervate	Basic	Free	0			Gain 2 Mana Crystals this turn only.	Druid			
+Ironbark Protector	Basic	Common	8	8	8	<b>Taunt</b>	Druid			Taunt
+Ironforge Rifleman	Basic	Common	3	2	2	<b>Battlecry:</b> Deal 1 damage.				Battlecry
+Ironfur Grizzly	Basic	Common	3	3	3	<b>Taunt</b>			Beast	Taunt
+Jaina Proudmoore	Basic	Free			30		Mage			
+Kill Command	Basic	Common	3			Deal $3 damage. If you have a Beast, deal $5 damage instead.	Hunter			
+Kobold Geomancer	Basic	Common	2	2	2	<b>Spell Damage +1</b>				Spellpower
+Kor'kron Elite	Basic	Common	4	4	3	<b>Charge</b>	Warrior			Charge
+Light's Justice	Basic	Free	1	1			Paladin	4		
+Lord of the Arena	Basic	Common	6	6	5	<b>Taunt</b>				Taunt
+Magma Rager	Basic	Free	3	5	1					
+Malfurion Stormrage	Basic	Free			30		Druid			
+Mark of the Wild	Basic	Free	2			Give a minion <b>Taunt</b> and +2/+2.<i> (+2 Attack/+2 Health)</i>	Druid			
+Mind Blast	Basic	Free	2			Deal $5 damage to the enemy hero.	Priest			
+Mind Control	Basic	Common	10			Take control of an enemy minion.	Priest			
+Mind Vision	Basic	Common	1			Put a copy of a random card in your opponent's hand into your hand.	Priest			
+Mirror Image	Basic	Common	1			Summon two 0/2 minions with <b>Taunt</b>.	Mage			
+Moonfire	Basic	Common	0			Deal $1 damage.	Druid			
+Mortal Coil	Basic	Common	1			Deal $1 damage to a minion. If that kills it, draw a card.	Warlock			
+Multi-Shot	Basic	Free	4			Deal $3 damage to two random enemy minions.	Hunter			
+Murloc Raider	Basic	Free	1	2	1				Murloc	
+Murloc Tidehunter	Basic	Common	2	2	1	<b>Battlecry:</b> Summon a 1/1 Murloc Scout.			Murloc	Battlecry
+Nightblade	Basic	Free	5	4	4	<b>Battlecry: </b>Deal 3 damage to the enemy hero.				Battlecry
+Northshire Cleric	Basic	Free	1	1	3	Whenever a minion is healed, draw a card.	Priest			HealTarget
+Novice Engineer	Basic	Free	2	1	1	<b>Battlecry:</b> Draw a card.				Battlecry
+Oasis Snapjaw	Basic	Free	4	2	7				Beast	
+Ogre Magi	Basic	Common	4	4	4	<b>Spell Damage +1</b>				Spellpower
+Polymorph	Basic	Free	4			Transform a minion into a 1/1 Sheep.	Mage			
+Power Word: Shield	Basic	Free	1			Give a minion +2 Health.
+Draw a card.	Priest			
+Raid Leader	Basic	Free	3	2	2	Your other minions have +1 Attack.				Aura
+Razorfen Hunter	Basic	Common	3	2	3	<b>Battlecry:</b> Summon a 1/1 Boar.				Battlecry
+Reckless Rocketeer	Basic	Free	6	5	2	<b>Charge</b>				Charge
+Rexxar	Basic	Free			30		Hunter			
+River Crocolisk	Basic	Free	2	2	3				Beast	
+Rockbiter Weapon	Basic	Free	1			Give a friendly character +3 Attack this turn.	Shaman			
+Sacrificial Pact	Basic	Common	0			Destroy a Demon. Restore #5 Health to your hero.	Warlock			
+Sap	Basic	Free	2			Return an enemy minion to your opponent's hand.	Rogue			
+Savage Roar	Basic	Common	3			Give your characters +2 Attack this turn.	Druid			
+Sen'jin Shieldmasta	Basic	Free	4	3	5	<b>Taunt</b>				Taunt
+Shadow Bolt	Basic	Free	3			Deal $4 damage to a minion.	Warlock			
+Shadow Word: Death	Basic	Common	3			Destroy a minion with an Attack of 5 or more.	Priest			
+Shadow Word: Pain	Basic	Free	2			Destroy a minion with 3 or less Attack.	Priest			
+Shattered Sun Cleric	Basic	Common	3	3	2	<b>Battlecry:</b> Give a friendly minion +1/+1.				Battlecry
+Shield Block	Basic	Common	3			Gain 5 Armor.
+Draw a card.	Warrior			
+Shiv	Basic	Common	2			Deal $1 damage. Draw a card.	Rogue			
+Silverback Patriarch	Basic	Common	3	1	4	<b>Taunt</b>			Beast	Taunt
+Sinister Strike	Basic	Free	1			Deal $3 damage to the enemy hero.	Rogue			
+Soulfire	Basic	Common	1			Deal $4 damage. Discard a random card.	Warlock			
+Sprint	Basic	Common	7			Draw 4 cards.	Rogue			
+Starfire	Basic	Common	6			Deal $5 damage.
+Draw a card.	Druid			
+Starving Buzzard	Basic	Common	5	3	2	Whenever you summon a Beast, draw a card.	Hunter		Beast	
+Stonetusk Boar	Basic	Free	1	1	1	<b>Charge</b>			Beast	Charge
+Stormpike Commando	Basic	Common	5	4	2	<b>Battlecry:</b> Deal 2 damage.				Battlecry
+Stormwind Champion	Basic	Common	7	6	6	Your other minions have +1/+1.				Aura
+Stormwind Knight	Basic	Common	4	2	5	<b>Charge</b>				Charge
+Succubus	Basic	Free	2	4	3	<b>Battlecry:</b> Discard a random card.	Warlock		Demon	Battlecry
+Swipe	Basic	Common	4			Deal $4 damage to an enemy and $1 damage to all other enemies.	Druid			
+Thrall	Basic	Free			30		Shaman			
+Timber Wolf	Basic	Free	1	1	1	Your other Beasts have +1 Attack.	Hunter		Beast	Aura
+Totemic Might	Basic	Common	0			Give your Totems +2 Health.	Shaman			
+Tracking	Basic	Free	1			Look at the top three cards of your deck. Draw one and discard the others.	Hunter			
+Truesilver Champion	Basic	Common	4	4		Whenever your hero attacks, restore 2 Health to it.	Paladin	2		
+Tundra Rhino	Basic	Common	5	2	5	Your Beasts have <b>Charge</b>.	Hunter		Beast	
+Uther Lightbringer	Basic	Free			30		Paladin			
+Valeera Sanguinar	Basic	Free			30		Rogue			
+Vanish	Basic	Common	6			Return all minions to their owner's hand.	Rogue			
+Voidwalker	Basic	Free	1	1	3	<b>Taunt</b>	Warlock		Demon	Taunt
+Voodoo Doctor	Basic	Free	1	2	1	<b>Battlecry:</b> Restore 2 Health.				Battlecry
+War Golem	Basic	Common	7	7	7					
+Warsong Commander	Basic	Free	3	2	3	Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.	Warrior			
+Water Elemental	Basic	Common	4	3	6	<b>Freeze</b> any character damaged by this minion.	Mage			Freeze
+Whirlwind	Basic	Common	1			Deal $1 damage to ALL minions.	Warrior			
+Wild Growth	Basic	Free	2			Gain an empty Mana Crystal.	Druid			
+Windfury	Basic	Free	2			Give a minion <b>Windfury</b>.	Shaman			
+Windspeaker	Basic	Common	4	3	3	<b>Battlecry:</b> Give a friendly minion <b>Windfury</b>.	Shaman			Battlecry
+Wolfrider	Basic	Free	3	3	1	<b>Charge</b>				Charge
+Axe Flinger	Blackrock Mountain	Common	4	2	5	Whenever this minion takes damage, deal 2 damage to the enemy hero.	Warrior			
+Blackwing Corruptor	Blackrock Mountain	Common	5	5	4	<b>Battlecry</b>: If you're holding a Dragon, deal 3 damage.				Battlecry
+Blackwing Technician	Blackrock Mountain	Common	3	2	4	<b>Battlecry:</b> If you're holding a Dragon, gain +1/+1.				Battlecry
+Chromaggus	Blackrock Mountain	Legendary	8	6	8	Whenever you draw a card, put another copy into your hand.			Dragon	
+Core Rager	Blackrock Mountain	Rare	4	4	4	<b>Battlecry:</b> If your hand is empty, gain +3/+3.	Hunter		Beast	Battlecry
+Dark Iron Skulker	Blackrock Mountain	Rare	5	4	3	<b>Battlecry:</b> Deal 2 damage to all undamaged enemy minions.	Rogue			Battlecry
+Demonwrath	Blackrock Mountain	Rare	3			Deal $2 damage to all non-Demon minions.	Warlock			AffectedBySpellPower
+Dragon Consort	Blackrock Mountain	Rare	5	5	5	<b>Battlecry:</b> The next Dragon you play costs (2) less.	Paladin		Dragon	Battlecry
+Dragon Egg	Blackrock Mountain	Rare	1	0	2	Whenever this minion takes damage, summon a 2/1 Whelp.				
+Dragon's Breath	Blackrock Mountain	Common	5			Deal $4 damage. Costs (1) less for each minion that died this turn.	Mage			
+Dragonkin Sorcerer	Blackrock Mountain	Common	4	3	5	Whenever you target this minion with a spell, gain +1/+1.			Dragon	
+Drakonid Crusher	Blackrock Mountain	Common	6	6	6	<b>Battlecry:</b> If your opponent has 15 or less Health, gain +3/+3.			Dragon	Battlecry
+Druid of the Flame	Blackrock Mountain	Common	3	2	2	<b>Choose One</b> - Transform into a 5/2 minion; or a 2/5 minion.	Druid			
+Emperor Thaurissan	Blackrock Mountain	Legendary	6	5	5	At the end of your turn, reduce the Cost of cards in your hand by (1).				
+Fireguard Destroyer	Blackrock Mountain	Common	4	3	6	<b>Battlecry:</b> Gain 1-4 Attack. <b>Overload:</b> (1)	Shaman			Battlecry
+Flamewaker	Blackrock Mountain	Rare	3	2	4	After you cast a spell, deal 2 damage randomly split among all enemies.	Mage			
+Gang Up	Blackrock Mountain	Common	2			Choose a minion. Shuffle 3 copies of it into your deck.	Rogue			
+Grim Patron	Blackrock Mountain	Rare	5	3	3	Whenever this minion survives damage, summon another Grim Patron.				
+Hungry Dragon	Blackrock Mountain	Common	4	5	6	<b>Battlecry:</b> Summon a random 1-Cost minion for your opponent.			Dragon	Battlecry
+Imp Gang Boss	Blackrock Mountain	Common	3	2	4	Whenever this minion takes damage, summon a 1/1 Imp.	Warlock		Demon	
+Lava Shock	Blackrock Mountain	Rare	2			Deal $2 damage.
+Unlock your <b>Overloaded</b> Mana Crystals.	Shaman			
+Majordomo Executus	Blackrock Mountain	Legendary	9	9	7	<b>Deathrattle:</b> Replace your hero with Ragnaros, the Firelord.				Deathrattle
+Nefarian	Blackrock Mountain	Legendary	9	8	8	<b>Battlecry:</b> Add 2 random spells to your hand <i>(from your opponent's class)</i>.			Dragon	Battlecry
+Quick Shot	Blackrock Mountain	Common	2			Deal $3 damage.
+If your hand is empty, draw a card.	Hunter			AffectedBySpellPower
+Rend Blackhand	Blackrock Mountain	Legendary	7	8	4	<b>Battlecry:</b> If you're holding a Dragon, destroy a <b>Legendary</b> minion.				Battlecry
+Resurrect	Blackrock Mountain	Rare	2			Summon a random friendly minion that died this game.	Priest			
+Revenge	Blackrock Mountain	Rare	2			Deal $1 damage to all minions. If you have 12 or less Health, deal $3 damage instead.	Warrior			
+Solemn Vigil	Blackrock Mountain	Common	5			Draw 2 cards. Costs (1) less for each minion that died this turn.	Paladin			
+Twilight Whelp	Blackrock Mountain	Common	1	2	1	<b>Battlecry:</b> If you're holding a Dragon, gain +2 Health.	Priest		Dragon	Battlecry
+Volcanic Drake	Blackrock Mountain	Common	6	6	4	Costs (1) less for each minion that died this turn.			Dragon	
+Volcanic Lumberer	Blackrock Mountain	Rare	9	7	8	<b>Taunt</b>
+Costs (1) less for each minion that died this turn.	Druid			Taunt
+Abomination	Classic	Rare	5	4	4	<b>Taunt</b>. <b>Deathrattle:</b> Deal 2 damage to ALL characters.				Deathrattle,Taunt
+Abusive Sergeant	Classic	Common	1	2	1	<b>Battlecry:</b> Give a minion +2 Attack this turn.				Battlecry
+Acolyte of Pain	Classic	Common	3	1	3	Whenever this minion takes damage, draw a card.				
+Al'Akir the Windlord	Classic	Legendary	8	3	5	<b>Windfury, Charge, Divine Shield, Taunt</b>	Shaman			Charge,Divine Shield,Taunt,Windfury
+Alarm-o-Bot	Classic	Rare	3	0	3	At the start of your turn, swap this minion with a random one in your hand.			Mech	
+Aldor Peacekeeper	Classic	Rare	3	3	3	<b>Battlecry:</b> Change an enemy minion's Attack to 1.	Paladin			Battlecry
+Alexstrasza	Classic	Legendary	9	8	8	<b>Battlecry:</b> Set a hero's remaining Health to 15.			Dragon	Battlecry
+Amani Berserker	Classic	Common	2	2	3	<b>Enrage:</b> +3 Attack				Enrage
+Ancestral Spirit	Classic	Rare	2			Give a minion "<b>Deathrattle:</b> Resummon this minion."	Shaman			
+Ancient Brewmaster	Classic	Common	4	5	4	<b>Battlecry:</b> Return a friendly minion from the battlefield to your hand.				Battlecry
+Ancient Mage	Classic	Rare	4	2	5	<b>Battlecry:</b> Give adjacent minions <b>Spell Damage +1</b>.				Battlecry
+Ancient Watcher	Classic	Rare	2	4	5	Can't Attack.				
+Ancient of Lore	Classic	Epic	7	5	5	<b>Choose One -</b> Draw 2 cards; or Restore 5 Health.	Druid			
+Ancient of War	Classic	Epic	7	5	5	<b>Choose One</b> -
++5 Attack; or +5 Health and <b>Taunt</b>.	Druid			
+Angry Chicken	Classic	Rare	1	1	1	<b>Enrage:</b> +5 Attack.			Beast	Enrage
+Arathi Weaponsmith	Classic	Common	4	3	3	<b>Battlecry:</b> Equip a 2/2 weapon.	Warrior			Battlecry
+Arcane Golem	Classic	Rare	3	4	2	<b>Charge</b>. <b>Battlecry:</b> Give your opponent a Mana Crystal.				Battlecry,Charge
+Archmage Antonidas	Classic	Legendary	7	5	7	Whenever you cast a spell, add a 'Fireball' spell to your hand.	Mage			
+Argent Commander	Classic	Rare	6	4	2	<b>Charge</b>, <b>Divine Shield</b>				Charge,Divine Shield
+Argent Protector	Classic	Common	2	2	2	<b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.	Paladin			Battlecry
+Argent Squire	Classic	Common	1	1	1	<b>Divine Shield</b>				Divine Shield
+Armorsmith	Classic	Rare	2	1	4	Whenever a friendly minion takes damage, gain 1 Armor.	Warrior			
+Auchenai Soulpriest	Classic	Rare	4	3	5	Your cards and powers that restore Health now deal damage instead.	Priest			Aura
+Avenging Wrath	Classic	Epic	6			Deal $8 damage randomly split among all enemies.	Paladin			ImmuneToSpellpower
+Azure Drake	Classic	Rare	5	4	4	<b>Spell Damage +1</b>. <b>Battlecry:</b> Draw a card.			Dragon	Battlecry,Spellpower
+Bane of Doom	Classic	Epic	5			Deal $2 damage to a character. If that kills it, summon a random Demon.	Warlock			
+Baron Geddon	Classic	Legendary	7	7	5	At the end of your turn, deal 2 damage to ALL other characters.				
+Battle Rage	Classic	Common	2			Draw a card for each damaged friendly character.	Warrior			
+Bestial Wrath	Classic	Epic	1			Give a friendly Beast +2 Attack and <b>Immune</b> this turn.	Hunter			
+Betrayal	Classic	Common	2			Force an enemy minion to deal its damage to the minions next to it.	Rogue			
+Big Game Hunter	Classic	Epic	3	4	2	<b>Battlecry:</b> Destroy a minion with an Attack of 7 or more.				Battlecry
+Bite	Classic	Rare	4			Give your hero +4 Attack this turn and 4 Armor.	Druid			
+Blade Flurry	Classic	Rare	2			Destroy your weapon and deal its damage to all enemies.	Rogue			AffectedBySpellPower
+Blessed Champion	Classic	Rare	5			Double a minion's Attack.	Paladin			
+Blessing of Wisdom	Classic	Common	1			Choose a minion. Whenever it attacks, draw a card.	Paladin			
+Blizzard	Classic	Rare	6			Deal $2 damage to all enemy minions and <b>Freeze</b> them.	Mage			Freeze
+Blood Imp	Classic	Common	1	0	1	<b>Stealth</b>. At the end of your turn, give another random friendly minion +1 Health.	Warlock		Demon	Stealth
+Blood Knight	Classic	Epic	3	3	3	<b>Battlecry:</b> All minions lose <b>Divine Shield</b>. Gain +3/+3 for each Shield lost.				Battlecry
+Bloodmage Thalnos	Classic	Legendary	2	1	1	<b>Spell Damage +1</b>. <b>Deathrattle:</b> Draw a card.				Deathrattle,Spellpower
+Bloodsail Corsair	Classic	Rare	1	1	2	<b>Battlecry:</b> Remove 1 Durability from your opponent's weapon.			Pirate	Battlecry
+Bloodsail Raider	Classic	Common	2	2	3	<b>Battlecry:</b> Gain Attack equal to the Attack of your weapon.			Pirate	Battlecry
+Brawl	Classic	Epic	5			Destroy all minions except one. <i>(chosen randomly)</i>	Warrior			
+Cabal Shadow Priest	Classic	Epic	6	4	5	<b>Battlecry:</b> Take control of an enemy minion that has 2 or less Attack.	Priest			Battlecry
+Cairne Bloodhoof	Classic	Legendary	6	4	5	<b>Deathrattle:</b> Summon a 4/5 Baine Bloodhoof.				Deathrattle
+Captain Greenskin	Classic	Legendary	5	5	4	<b>Battlecry:</b> Give your weapon +1/+1.			Pirate	Battlecry
+Cenarius	Classic	Legendary	9	5	8	<b>Choose One</b> - Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>.	Druid			
+Circle of Healing	Classic	Common	0			Restore #4 Health to ALL minions.	Priest			
+Cold Blood	Classic	Common	1			Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.	Rogue			Combo
+Coldlight Oracle	Classic	Rare	3	2	2	<b>Battlecry:</b> Each player draws 2 cards.			Murloc	Battlecry
+Coldlight Seer	Classic	Rare	3	2	3	<b>Battlecry:</b> Give ALL other Murlocs +2 Health.			Murloc	Battlecry
+Commanding Shout	Classic	Rare	2			Your minions can't be reduced below 1 Health this turn. Draw a card.	Warrior			
+Conceal	Classic	Common	1			Give your minions <b>Stealth</b> until your next turn.	Rogue			
+Cone of Cold	Classic	Common	4			<b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.	Mage			Freeze
+Counterspell	Classic	Rare	3			<b>Secret:</b> When your opponent casts a spell, <b>Counter</b> it.	Mage			Secret
+Crazed Alchemist	Classic	Rare	2	2	2	<b>Battlecry:</b> Swap the Attack and Health of a minion.				Battlecry
+Cruel Taskmaster	Classic	Common	2	2	2	<b>Battlecry:</b> Deal 1 damage to a minion and give it +2 Attack.	Warrior			Battlecry
+Cult Master	Classic	Common	4	4	2	Whenever one of your other minions dies, draw a card.				
+Dark Iron Dwarf	Classic	Common	4	4	4	<b>Battlecry:</b> Give a minion +2 Attack this turn.				Battlecry
+Deadly Shot	Classic	Common	3			Destroy a random enemy minion.	Hunter			
+Deathwing	Classic	Legendary	10	12	12	<b>Battlecry:</b> Destroy all other minions and discard your hand.			Dragon	Battlecry
+Defender of Argus	Classic	Rare	4	2	3	<b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.				Battlecry
+Defias Ringleader	Classic	Common	2	2	2	<b>Combo:</b> Summon a 2/1 Defias Bandit.	Rogue			Combo
+Demolisher	Classic	Rare	3	1	4	At the start of your turn, deal 2 damage to a random enemy.			Mech	
+Demonfire	Classic	Common	2			Deal $2 damage to a minion. If it’s a friendly Demon, give it +2/+2 instead.	Warlock			
+Dire Wolf Alpha	Classic	Common	2	2	2	Adjacent minions have +1 Attack.			Beast	AdjacentBuff,Aura
+Divine Favor	Classic	Rare	3			Draw cards until you have as many in hand as your opponent.	Paladin			
+Doomguard	Classic	Rare	5	5	7	<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.	Warlock		Demon	Battlecry,Charge
+Doomhammer	Classic	Epic	5	2		<b>Windfury, Overload:</b> (2)	Shaman	8		Windfury
+Doomsayer	Classic	Epic	2	0	7	At the start of your turn, destroy ALL minions.				
+Dread Corsair	Classic	Common	4	3	3	<b>Taunt.</b> Costs (1) less per Attack of your weapon.			Pirate	Taunt
+Druid of the Claw	Classic	Common	5	4	4	<b>Choose One -</b> <b>Charge</b>; or +2 Health and <b>Taunt</b>.	Druid			
+Dust Devil	Classic	Common	1	3	1	<b>Windfury</b>. <b>Overload:</b> (2)	Shaman			Windfury
+Eaglehorn Bow	Classic	Rare	3	3		Whenever a friendly <b>Secret</b> is revealed, gain +1 Durability.	Hunter	2		
+Earth Elemental	Classic	Epic	5	7	8	<b>Taunt</b>. <b>Overload:</b> (3)	Shaman			Taunt
+Earth Shock	Classic	Common	1			<b>Silence</b> a minion, then deal $1 damage to it.	Shaman			Silence
+Earthen Ring Farseer	Classic	Common	3	3	3	<b>Battlecry:</b> Restore 3 Health.				Battlecry
+Edwin VanCleef	Classic	Legendary	3	2	2	<b>Combo:</b> Gain +2/+2 for each card played earlier this turn.	Rogue			Combo
+Emperor Cobra	Classic	Rare	3	2	3	Destroy any minion damaged by this minion.			Beast	Poisonous
+Equality	Classic	Rare	2			Change the Health of ALL minions to 1.	Paladin			
+Ethereal Arcanist	Classic	Rare	4	3	3	If you control a <b>Secret</b> at the end of your turn, gain +2/+2.	Mage			
+Eviscerate	Classic	Common	2			Deal $2 damage. <b>Combo:</b> Deal $4 damage instead.	Rogue			Combo
+Explosive Shot	Classic	Rare	5			Deal $5 damage to a minion and $2 damage to adjacent ones.	Hunter			
+Explosive Trap	Classic	Common	2			<b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.	Hunter			Secret
+Eye for an Eye	Classic	Common	1			<b>Secret:</b> When your hero takes damage, deal that much damage to the enemy hero.	Paladin			Secret
+Faceless Manipulator	Classic	Epic	5	3	3	<b>Battlecry:</b> Choose a minion and become a copy of it.				Battlecry
+Faerie Dragon	Classic	Common	2	3	2	Can't be targeted by spells or Hero Powers.			Dragon	
+Far Sight	Classic	Epic	3			Draw a card. That card costs (3) less.	Shaman			
+Felguard	Classic	Rare	3	3	5	<b>Taunt</b>. <b>Battlecry:</b> Destroy one of your Mana Crystals.	Warlock		Demon	Battlecry,Taunt
+Fen Creeper	Classic	Common	5	3	6	<b>Taunt</b>				Taunt
+Feral Spirit	Classic	Rare	3			Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (2)	Shaman			
+Flame Imp	Classic	Common	1	3	2	<b>Battlecry:</b> Deal 3 damage to your hero.	Warlock		Demon	Battlecry
+Flare	Classic	Rare	2			All minions lose <b>Stealth</b>. Destroy all enemy <b>Secrets</b>. Draw a card.	Hunter			
+Flesheating Ghoul	Classic	Common	3	2	3	Whenever a minion dies, gain +1 Attack.				
+Force of Nature	Classic	Epic	6			Summon three 2/2 Treants with <b>Charge</b> that die at the end of the turn.	Druid			
+Forked Lightning	Classic	Common	1			Deal $2 damage to 2 random enemy minions. <b>Overload:</b> (2)	Shaman			
+Freezing Trap	Classic	Common	2			<b>Secret:</b> When an enemy minion attacks, return it to its owner's hand and it costs (2) more.	Hunter			Secret
+Frost Elemental	Classic	Common	6	5	5	<b>Battlecry:</b> <b>Freeze</b> a character.				Battlecry,Freeze
+Frothing Berserker	Classic	Rare	3	2	4	Whenever a minion takes damage, gain +1 Attack.	Warrior			
+Gadgetzan Auctioneer	Classic	Rare	6	4	4	Whenever you cast a spell, draw a card.				
+Gladiator's Longbow	Classic	Epic	7	5		Your hero is <b>Immune</b> while attacking.	Hunter	2		
+Gorehowl	Classic	Epic	7	7		Attacking a minion costs 1 Attack instead of 1 Durability.	Warrior	1		
+Grommash Hellscream	Classic	Legendary	8	4	9	<b>Charge</b>
+<b>Enrage:</b> +6 Attack	Warrior			Charge,Enrage
+Gruul	Classic	Legendary	8	7	7	At the end of each turn, gain +1/+1 .				
+Harrison Jones	Classic	Legendary	5	5	4	<b>Battlecry:</b> Destroy your opponent's weapon and draw cards equal to its Durability.				Battlecry
+Harvest Golem	Classic	Common	3	2	3	<b>Deathrattle:</b> Summon a 2/1 Damaged Golem.			Mech	Deathrattle
+Headcrack	Classic	Rare	3			Deal $2 damage to the enemy hero. <b>Combo:</b> Return this to your hand next turn.	Rogue			Combo
+Hogger	Classic	Legendary	6	4	4	At the end of your turn, summon a 2/2 Gnoll with <b>Taunt</b>.				
+Holy Fire	Classic	Rare	6			Deal $5 damage. Restore #5 Health to your hero.	Priest			
+Holy Wrath	Classic	Rare	5			Draw a card and deal damage equal to its cost.	Paladin			
+Hungry Crab	Classic	Epic	1	1	2	<b>Battlecry:</b> Destroy a Murloc and gain +2/+2.			Beast	Battlecry
+Ice Barrier	Classic	Common	3			<b>Secret:</b> When your hero is attacked, gain 8 Armor.	Mage			Secret
+Ice Block	Classic	Epic	3			<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.	Mage			Secret
+Ice Lance	Classic	Common	1			<b>Freeze</b> a character. If it was already <b>Frozen</b>, deal $4 damage instead.	Mage			Freeze
+Illidan Stormrage	Classic	Legendary	6	7	5	Whenever you play a card, summon a 2/1 Flame of Azzinoth.			Demon	
+Imp Master	Classic	Rare	3	1	5	At the end of your turn, deal 1 damage to this minion and summon a 1/1 Imp.				
+Injured Blademaster	Classic	Rare	3	4	7	<b>Battlecry:</b> Deal 4 damage to HIMSELF.				Battlecry
+Inner Fire	Classic	Common	1			Change a minion's Attack to be equal to its Health.	Priest			
+Inner Rage	Classic	Common	0			Deal $1 damage to a minion and give it +2 Attack.	Warrior			
+Ironbeak Owl	Classic	Common	2	2	1	<b>Battlecry:</b> <b>Silence</b> a minion.			Beast	Battlecry
+Jungle Panther	Classic	Common	3	4	2	<b>Stealth</b>			Beast	Stealth
+Keeper of the Grove	Classic	Rare	4	2	4	<b>Choose One</b> - Deal 2 damage; or <b>Silence</b> a minion.	Druid			
+Kidnapper	Classic	Epic	6	5	3	<b>Combo:</b> Return a minion to its owner's hand.	Rogue			Combo
+King Krush	Classic	Legendary	9	8	8	<b>Charge</b>	Hunter		Beast	Charge
+King Mukla	Classic	Legendary	3	5	5	<b>Battlecry:</b> Give your opponent 2 Bananas.			Beast	Battlecry
+Kirin Tor Mage	Classic	Rare	3	4	3	<b>Battlecry:</b> The next <b>Secret</b> you play this turn costs (0).	Mage			Battlecry
+Knife Juggler	Classic	Rare	2	3	2	After you summon a minion, deal 1 damage to a random enemy.				
+Lava Burst	Classic	Rare	3			Deal $5 damage. <b>Overload:</b> (2)	Shaman			
+Lay on Hands	Classic	Epic	8			Restore #8 Health. Draw 3 cards.	Paladin			
+Leeroy Jenkins	Classic	Legendary	5	6	2	<b>Charge</b>. <b>Battlecry:</b> Summon two 1/1 Whelps for your opponent.				Battlecry,Charge
+Leper Gnome	Classic	Common	1	2	1	<b>Deathrattle:</b> Deal 2 damage to the enemy hero.				Deathrattle
+Lightning Bolt	Classic	Common	1			Deal $3 damage. <b>Overload:</b> (1)	Shaman			
+Lightning Storm	Classic	Rare	3			Deal $2-$3 damage to all enemy minions. <b>Overload:</b> (2)	Shaman			
+Lightspawn	Classic	Common	4	0	5	This minion's Attack is always equal to its Health.	Priest			
+Lightwarden	Classic	Rare	1	1	2	Whenever a character is healed, gain +2 Attack.				
+Lightwell	Classic	Rare	2	0	5	At the start of your turn, restore 3 Health to a damaged friendly character.	Priest			
+Loot Hoarder	Classic	Common	2	2	1	<b>Deathrattle:</b> Draw a card.				Deathrattle
+Lord Jaraxxus	Classic	Legendary	9	3	15	<b>Battlecry:</b> Destroy your hero and replace it with Lord Jaraxxus.	Warlock		Demon	Battlecry
+Lorewalker Cho	Classic	Legendary	2	0	4	Whenever a player casts a spell, put a copy into the other player’s hand.				
+Mad Bomber	Classic	Common	2	3	2	<b>Battlecry:</b> Deal 3 damage randomly split between all other characters.				Battlecry
+Malygos	Classic	Legendary	9	4	12	<b>Spell Damage +5</b>			Dragon	Spellpower
+Mana Addict	Classic	Rare	2	1	3	Whenever you cast a spell, gain +2 Attack this turn.				
+Mana Tide Totem	Classic	Rare	3	0	3	At the end of your turn, draw a card.	Shaman		Totem	
+Mana Wraith	Classic	Rare	2	2	2	ALL minions cost (1) more.				Aura
+Mana Wyrm	Classic	Common	1	1	3	Whenever you cast a spell, gain +1 Attack.	Mage			
+Mark of Nature	Classic	Common	3			<b>Choose One</b> - Give a minion +4 Attack; or +4 Health and <b>Taunt</b>.	Druid			
+Mass Dispel	Classic	Rare	4			<b>Silence</b> all enemy minions. Draw a card.	Priest			Silence
+Master Swordsmith	Classic	Rare	2	1	3	At the end of your turn, give another random friendly minion +1 Attack.				
+Master of Disguise	Classic	Rare	4	4	4	<b>Battlecry:</b> Give a friendly minion <b>Stealth</b>.	Rogue			Battlecry
+Millhouse Manastorm	Classic	Legendary	2	4	4	<b>Battlecry:</b> Enemy spells cost (0) next turn.				Battlecry
+Mind Control Tech	Classic	Rare	3	3	3	<b>Battlecry:</b> If your opponent has 4 or more minions, take control of one at random.				Battlecry
+Mindgames	Classic	Epic	4			Put a copy of a random minion from your opponent's deck into the battlefield.	Priest			
+Mirror Entity	Classic	Common	3			<b>Secret:</b> When your opponent plays a minion, summon a copy of it.	Mage			Secret
+Misdirection	Classic	Rare	2			<b>Secret:</b> When a character attacks your hero, instead he attacks another random character.	Hunter			Secret
+Mogu'shan Warden	Classic	Common	4	1	7	<b>Taunt</b>				Taunt
+Molten Giant	Classic	Epic	20	8	8	Costs (1) less for each damage your hero has taken.				
+Mortal Strike	Classic	Rare	4			Deal $4 damage. If you have 12 or less Health, deal $6 instead.	Warrior			
+Mountain Giant	Classic	Epic	12	8	8	Costs (1) less for each other card in your hand.				
+Murloc Tidecaller	Classic	Rare	1	1	2	Whenever a Murloc is summoned, gain +1 Attack.			Murloc	
+Murloc Warleader	Classic	Epic	3	3	3	ALL other Murlocs have +2/+1.			Murloc	Aura
+Nat Pagle	Classic	Legendary	2	0	4	At the start of your turn, you have a 50% chance to draw an extra card.				
+Naturalize	Classic	Common	1			Destroy a minion. Your opponent draws 2 cards.	Druid			
+Noble Sacrifice	Classic	Common	1			<b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target.	Paladin			Secret
+Nourish	Classic	Rare	5			<b>Choose One</b> - Gain 2 Mana Crystals; or Draw 3 cards.	Druid			
+Nozdormu	Classic	Legendary	9	8	8	Players only have 15 seconds to take their turns.			Dragon	
+Onyxia	Classic	Legendary	9	8	8	<b>Battlecry:</b> Summon 1/1 Whelps until your side of the battlefield is full.			Dragon	Battlecry
+Patient Assassin	Classic	Epic	2	1	1	<b>Stealth</b>. Destroy any minion damaged by this minion.	Rogue			Poisonous,Stealth
+Perdition's Blade	Classic	Rare	3	2		<b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead.	Rogue	2		Battlecry,Combo
+Pint-Sized Summoner	Classic	Rare	2	2	2	The first minion you play each turn costs (1) less.				Aura
+Pit Lord	Classic	Epic	4	5	6	<b>Battlecry:</b> Deal 5 damage to your hero.	Warlock		Demon	Battlecry
+Power Overwhelming	Classic	Common	1			Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.	Warlock			
+Power of the Wild	Classic	Common	2			<b>Choose One</b> - Give your minions +1/+1; or Summon a 3/2 Panther.	Druid			
+Preparation	Classic	Epic	0			The next spell you cast this turn costs (3) less.	Rogue			
+Priestess of Elune	Classic	Common	6	5	4	<b>Battlecry:</b> Restore 4 Health to your hero.				Battlecry
+Prophet Velen	Classic	Legendary	7	7	7	Double the damage and healing of your spells and Hero Power.	Priest			
+Pyroblast	Classic	Epic	10			Deal $10 damage.	Mage			
+Questing Adventurer	Classic	Rare	3	2	2	Whenever you play a card, gain +1/+1.				
+Raging Worgen	Classic	Common	3	3	3	<b>Enrage:</b> <b>Windfury</b> and +1 Attack				Enrage
+Ragnaros the Firelord	Classic	Legendary	8	8	8	Can't Attack. At the end of your turn, deal 8 damage to a random enemy.				
+Rampage	Classic	Common	2			Give a damaged minion +3/+3.	Warrior			
+Ravenholdt Assassin	Classic	Rare	7	7	5	<b>Stealth</b>				Stealth
+Redemption	Classic	Common	1			<b>Secret:</b> When one of your minions dies, return it to life with 1 Health.	Paladin			Secret
+Repentance	Classic	Common	1			<b>Secret:</b> When your opponent plays a minion, reduce its Health to 1.	Paladin			Secret
+SI:7 Agent	Classic	Rare	3	3	3	<b>Combo:</b> Deal 2 damage.	Rogue			Combo
+Savagery	Classic	Rare	1			Deal damage equal to your hero's Attack to a minion.	Druid			AffectedBySpellPower
+Savannah Highmane	Classic	Rare	6	6	5	<b>Deathrattle:</b> Summon two 2/2 Hyenas.	Hunter		Beast	Deathrattle
+Scarlet Crusader	Classic	Common	3	3	1	<b>Divine Shield</b>				Divine Shield
+Scavenging Hyena	Classic	Common	2	2	2	Whenever a friendly Beast dies, gain +2/+1.	Hunter		Beast	
+Sea Giant	Classic	Epic	10	8	8	Costs (1) less for each other minion on the battlefield.				
+Secretkeeper	Classic	Rare	1	1	2	Whenever a <b>Secret</b> is played, gain +1/+1.				
+Sense Demons	Classic	Common	3			Put 2 random Demons from your deck into your hand.	Warlock			
+Shadow Madness	Classic	Rare	4			Gain control of an enemy minion with 3 or less Attack until end of turn.	Priest			
+Shadowflame	Classic	Rare	4			Destroy a friendly minion and deal its Attack damage to all enemy minions.	Warlock			AffectedBySpellPower
+Shadowform	Classic	Epic	3			Your Hero Power becomes 'Deal 2 damage'. If already in Shadowform: 3 damage.	Priest			
+Shadowstep	Classic	Common	0			Return a friendly minion to your hand. It costs (2) less.	Rogue			
+Shield Slam	Classic	Epic	1			Deal 1 damage to a minion for each Armor you have.	Warrior			AffectedBySpellPower
+Shieldbearer	Classic	Common	1	0	4	<b>Taunt</b>				Taunt
+Silence	Classic	Common	0			<b>Silence</b> a minion.	Priest			Silence
+Silver Hand Knight	Classic	Common	5	4	4	<b>Battlecry:</b> Summon a 2/2 Squire.				Battlecry
+Silvermoon Guardian	Classic	Common	4	3	3	<b>Divine Shield</b>				Divine Shield
+Siphon Soul	Classic	Rare	6			Destroy a minion. Restore #3 Health to your hero.	Warlock			
+Slam	Classic	Common	2			Deal $2 damage to a minion. If it survives, draw a card.	Warrior			
+Snake Trap	Classic	Epic	2			<b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.	Hunter			Secret
+Snipe	Classic	Common	2			<b>Secret:</b> When your opponent plays a minion, deal $4 damage to it.	Hunter			Secret
+Sorcerer's Apprentice	Classic	Common	2	3	2	Your spells cost (1) less.	Mage			Aura
+Soul of the Forest	Classic	Common	4			Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."	Druid			
+Southsea Captain	Classic	Epic	3	3	3	Your other Pirates have +1/+1.			Pirate	Aura
+Southsea Deckhand	Classic	Common	1	2	1	Has <b>Charge</b> while you have a weapon equipped.			Pirate	
+Spellbender	Classic	Epic	3			<b>Secret:</b> When an enemy casts a spell on a minion, summon a 1/3 as the new target.	Mage			Secret
+Spellbreaker	Classic	Common	4	4	3	<b>Battlecry:</b> <b>Silence</b> a minion.				Battlecry
+Spiteful Smith	Classic	Common	5	4	6	<b>Enrage:</b> Your weapon has +2 Attack.				Enrage
+Stampeding Kodo	Classic	Rare	5	3	5	<b>Battlecry:</b> Destroy a random enemy minion with 2 or less Attack.			Beast	Battlecry
+Starfall	Classic	Rare	5			<b>Choose One -</b> Deal $5 damage to a minion; or $2 damage to all enemy minions.	Druid			
+Stormforged Axe	Classic	Common	2	2		<b>Overload:</b> (1)	Shaman	3		
+Stranglethorn Tiger	Classic	Common	5	5	5	<b>Stealth</b>			Beast	Stealth
+Summoning Portal	Classic	Common	4	0	4	Your minions cost (2) less, but not less than (1).	Warlock			Aura
+Sunfury Protector	Classic	Rare	2	2	3	<b>Battlecry:</b> Give adjacent minions <b>Taunt</b>.				Battlecry
+Sunwalker	Classic	Rare	6	4	5	<b>Taunt</b>
+<b>Divine Shield</b>				Divine Shield,Taunt
+Sword of Justice	Classic	Epic	3	1		Whenever you summon a minion, give it +1/+1 and this loses 1 Durability.	Paladin	5		
+Sylvanas Windrunner	Classic	Legendary	6	5	5	<b>Deathrattle:</b> Take control of a random enemy minion.				Deathrattle
+Tauren Warrior	Classic	Common	3	2	3	<b>Taunt</b>. <b>Enrage:</b> +3 Attack				Enrage,Taunt
+Temple Enforcer	Classic	Common	6	6	6	<b>Battlecry:</b> Give a friendly minion +3 Health.	Priest			Battlecry
+The Beast	Classic	Legendary	6	9	7	<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.			Beast	Deathrattle
+The Black Knight	Classic	Legendary	6	4	5	<b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.				Battlecry
+Thoughtsteal	Classic	Common	3			Copy 2 cards from your opponent's deck and put them into your hand.	Priest			
+Thrallmar Farseer	Classic	Common	3	2	3	<b>Windfury</b>				Windfury
+Tinkmaster Overspark	Classic	Legendary	3	3	3	<b>Battlecry:</b> Transform another random minion into a 5/5 Devilsaur or a 1/1 Squirrel.				Battlecry
+Tirion Fordring	Classic	Legendary	8	6	6	<b>Divine Shield</b>. <b>Taunt</b>. <b>Deathrattle:</b> Equip a 5/3 Ashbringer.	Paladin			Deathrattle,Divine Shield,Taunt
+Twilight Drake	Classic	Rare	4	4	1	<b>Battlecry:</b> Gain +1 Health for each card in your hand.			Dragon	Battlecry
+Twisting Nether	Classic	Epic	8			Destroy all minions.	Warlock			
+Unbound Elemental	Classic	Common	3	2	4	Whenever you play a card with <b>Overload</b>, gain +1/+1.	Shaman			
+Unleash the Hounds	Classic	Common	3			For each enemy minion, summon a 1/1 Hound with <b>Charge</b>.	Hunter			
+Upgrade!	Classic	Rare	1			If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.	Warrior			
+Vaporize	Classic	Rare	3			<b>Secret:</b> When a minion attacks your hero, destroy it.	Mage			Secret
+Venture Co. Mercenary	Classic	Common	5	7	6	Your minions cost (3) more.				Aura
+Violet Teacher	Classic	Rare	4	3	5	Whenever you cast a spell, summon a 1/1 Violet Apprentice.				
+Void Terror	Classic	Rare	3	3	3	<b>Battlecry:</b> Destroy the minions on either side of this minion and gain their Attack and Health.	Warlock		Demon	Battlecry
+Wild Pyromancer	Classic	Rare	2	3	2	After you cast a spell, deal 1 damage to ALL minions.				
+Windfury Harpy	Classic	Common	6	4	5	<b>Windfury</b>				Windfury
+Wisp	Classic	Common	0	1	1					
+Worgen Infiltrator	Classic	Common	1	2	1	<b>Stealth</b>				Stealth
+Wrath	Classic	Common	2			<b>Choose One</b> - Deal $3 damage to a minion; or $1 damage and draw a card.	Druid			
+Young Dragonhawk	Classic	Common	1	1	1	<b>Windfury</b>			Beast	Windfury
+Young Priestess	Classic	Rare	1	2	1	At the end of your turn, give another random friendly minion +1 Health.				
+Youthful Brewmaster	Classic	Common	2	3	2	<b>Battlecry:</b> Return a friendly minion from the battlefield to your hand.				Battlecry
+Ysera	Classic	Legendary	9	4	12	At the end of your turn, add a Dream Card to your hand.			Dragon	
+Anub'ar Ambusher	Curse of Naxxramas	Common	4	5	5	<b>Deathrattle:</b> Return a random friendly minion to your hand.	Rogue			Deathrattle
+Avenge	Curse of Naxxramas	Common	1			<b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.	Paladin			Secret
+Baron Rivendare	Curse of Naxxramas	Legendary	4	1	7	Your minions trigger their <b>Deathrattles</b> twice.				Aura
+Dancing Swords	Curse of Naxxramas	Common	3	4	4	<b>Deathrattle:</b> Your opponent draws a card.				Deathrattle
+Dark Cultist	Curse of Naxxramas	Common	3	3	4	<b>Deathrattle:</b> Give a random friendly minion +3 Health.	Priest			Deathrattle
+Death's Bite	Curse of Naxxramas	Common	4	4		<b>Deathrattle:</b> Deal 1 damage to all minions.	Warrior	2		Deathrattle
+Deathlord	Curse of Naxxramas	Rare	3	2	8	<b>Taunt. Deathrattle:</b> Your opponent puts a minion from their deck into the battlefield.				Deathrattle,Taunt
+Duplicate	Curse of Naxxramas	Common	3			<b>Secret:</b> When a friendly minion dies, put 2 copies of it into your hand.	Mage			Secret
+Echoing Ooze	Curse of Naxxramas	Epic	2	1	2	<b>Battlecry:</b> Summon an exact copy of this minion at the end of the turn.				Battlecry
+Feugen	Curse of Naxxramas	Legendary	5	4	7	<b>Deathrattle:</b> If Stalagg also died this game, summon Thaddius.				Deathrattle
+Haunted Creeper	Curse of Naxxramas	Common	2	1	2	<b>Deathrattle:</b> Summon two 1/1 Spectral Spiders.			Beast	Deathrattle
+Kel'Thuzad	Curse of Naxxramas	Legendary	8	6	8	At the end of each turn, summon all friendly minions that died this turn.				
+Loatheb	Curse of Naxxramas	Legendary	5	5	5	<b>Battlecry:</b> Enemy spells cost (5) more next turn.				Battlecry
+Mad Scientist	Curse of Naxxramas	Common	2	2	2	<b>Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield.				Deathrattle
+Maexxna	Curse of Naxxramas	Legendary	6	2	8	Destroy any minion damaged by this minion.			Beast	Poisonous
+Nerub'ar Weblord	Curse of Naxxramas	Common	2	1	4	Minions with <b>Battlecry</b> cost (2) more.				Aura
+Nerubian Egg	Curse of Naxxramas	Rare	2	0	2	<b>Deathrattle:</b> Summon a 4/4 Nerubian.				Deathrattle
+Poison Seeds	Curse of Naxxramas	Common	4			Destroy all minions and summon 2/2 Treants to replace them.	Druid			
+Reincarnate	Curse of Naxxramas	Common	2			Destroy a minion, then return it to life with full Health.	Shaman			
+Shade of Naxxramas	Curse of Naxxramas	Epic	3	2	2	<b>Stealth.</b> At the start of your turn, gain +1/+1.				Stealth
+Sludge Belcher	Curse of Naxxramas	Rare	5	3	5	<b>Taunt.
+Deathrattle:</b> Summon a 1/2 Slime with <b>Taunt</b>.				Deathrattle,Taunt
+Spectral Knight	Curse of Naxxramas	Common	5	4	6	Can't be targeted by spells or Hero Powers.				
+Stalagg	Curse of Naxxramas	Legendary	5	7	4	<b>Deathrattle:</b> If Feugen also died this game, summon Thaddius.				Deathrattle
+Stoneskin Gargoyle	Curse of Naxxramas	Common	3	1	4	At the start of your turn, restore this minion to full Health.				
+Undertaker	Curse of Naxxramas	Common	1	1	2	Whenever you summon a minion with <b>Deathrattle</b>, gain +1 Attack.				
+Unstable Ghoul	Curse of Naxxramas	Common	2	1	3	<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.				Deathrattle,Taunt
+Voidcaller	Curse of Naxxramas	Common	4	3	4	<b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.	Warlock		Demon	Deathrattle
+Wailing Soul	Curse of Naxxramas	Rare	4	3	5	<b>Battlecry: Silence</b> your other minions.				Battlecry
+Webspinner	Curse of Naxxramas	Common	1	1	1	<b>Deathrattle:</b> Add a random Beast card to your hand.	Hunter		Beast	Deathrattle
+Zombie Chow	Curse of Naxxramas	Common	1	2	3	<b>Deathrattle:</b> Restore 5 Health to the enemy hero.				Deathrattle
+Ancestor's Call	Goblins vs Gnomes	Epic	4			Put a random minion from each player's hand into the battlefield.	Shaman			
+Anima Golem	Goblins vs Gnomes	Epic	6	9	9	At the end of each turn, destroy this minion if it's your only one.	Warlock		Mech	
+Annoy-o-Tron	Goblins vs Gnomes	Common	2	1	2	<b>Taunt</b>
+<b>Divine Shield</b>			Mech	Divine Shield,Taunt
+Anodized Robo Cub	Goblins vs Gnomes	Common	2	2	2	<b>Taunt</b>. <b>Choose One -</b>
++1 Attack; or +1 Health.	Druid		Mech	Taunt
+Antique Healbot	Goblins vs Gnomes	Common	5	3	3	<b>Battlecry:</b> Restore 8 Health to your hero.			Mech	Battlecry
+Arcane Nullifier X-21	Goblins vs Gnomes	Rare	4	2	5	<b>Taunt</b>
+Can't be targeted by spells or Hero Powers.			Mech	Taunt
+Blingtron 3000	Goblins vs Gnomes	Legendary	5	3	4	<b>Battlecry:</b> Equip a random weapon for each player.			Mech	Battlecry
+Bolvar Fordragon	Goblins vs Gnomes	Legendary	5	1	7	Whenever a friendly minion dies while this is in your hand, gain +1 Attack.	Paladin			
+Bomb Lobber	Goblins vs Gnomes	Rare	5	3	3	<b>Battlecry:</b> Deal 4 damage to a random enemy minion.				Battlecry
+Bouncing Blade	Goblins vs Gnomes	Epic	3			Deal $1 damage to a random minion. Repeat until a minion dies.	Warrior			
+Burly Rockjaw Trogg	Goblins vs Gnomes	Common	4	3	5	Whenever your opponent casts a spell, gain +2 Attack.				
+Call Pet	Goblins vs Gnomes	Rare	2			Draw a card.
+If it's a Beast, it costs (4) less.	Hunter			
+Clockwork Giant	Goblins vs Gnomes	Epic	12	8	8	Costs (1) less for each card in your opponent's hand.			Mech	
+Clockwork Gnome	Goblins vs Gnomes	Common	1	2	1	<b>Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.			Mech	Deathrattle
+Cobalt Guardian	Goblins vs Gnomes	Rare	5	6	3	Whenever you summon a Mech, gain <b>Divine Shield</b>.	Paladin		Mech	
+Cobra Shot	Goblins vs Gnomes	Common	5			Deal $3 damage to a minion and the enemy hero.	Hunter			
+Coghammer	Goblins vs Gnomes	Epic	3	2		<b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.	Paladin	3		Battlecry
+Cogmaster	Goblins vs Gnomes	Common	1	1	2	Has +2 Attack while you have a Mech.				Aura
+Cogmaster's Wrench	Goblins vs Gnomes	Epic	3	1		Has +2 Attack while you have a Mech.	Rogue	3		Aura
+Crackle	Goblins vs Gnomes	Common	2			Deal $3-$6 damage. <b>Overload:</b> (1)	Shaman			
+Crush	Goblins vs Gnomes	Epic	7			Destroy a minion. If you have a damaged minion, this costs (4) less.	Warrior			
+Dark Wispers	Goblins vs Gnomes	Epic	6			<b>Choose One -</b> Summon 5 Wisps; or Give a minion +5/+5 and <b>Taunt</b>.	Druid			
+Darkbomb	Goblins vs Gnomes	Common	2			Deal $3 damage.	Warlock			
+Demonheart	Goblins vs Gnomes	Epic	5			Deal $5 damage to a minion.  If it's a friendly Demon, give it +5/+5 instead.	Warlock			
+Dr. Boom	Goblins vs Gnomes	Legendary	7	7	7	<b>Battlecry</b>: Summon two 1/1 Boom Bots. <i>WARNING: Bots may explode.</i>				Battlecry
+Druid of the Fang	Goblins vs Gnomes	Common	5	4	4	<b>Battlecry:</b> If you have a Beast, transform this minion into a 7/7.	Druid			Battlecry
+Dunemaul Shaman	Goblins vs Gnomes	Rare	4	5	4	<b>Windfury, Overload: (1)</b>
+50% chance to attack the wrong enemy.	Shaman			Windfury
+Echo of Medivh	Goblins vs Gnomes	Epic	4			Put a copy of each friendly minion into your hand.	Mage			
+Enhance-o Mechano	Goblins vs Gnomes	Epic	4	3	2	<b>Battlecry:</b> Give your other minions <b>Windfury</b>, <b>Taunt</b>, or <b>Divine Shield</b>.
+<i>(at random)</i>			Mech	Battlecry
+Explosive Sheep	Goblins vs Gnomes	Common	2	1	1	<b>Deathrattle:</b> Deal 2 damage to all minions.			Mech	Deathrattle
+Feign Death	Goblins vs Gnomes	Epic	2			Trigger all <b>Deathrattles</b> on your minions.	Hunter			
+Fel Cannon	Goblins vs Gnomes	Rare	4	3	5	At the end of your turn, deal 2 damage to a non-Mech minion.	Warlock		Mech	
+Fel Reaver	Goblins vs Gnomes	Epic	5	8	8	Whenever your opponent plays a card, discard the top 3 cards of your deck.			Mech	
+Flame Leviathan	Goblins vs Gnomes	Legendary	7	7	7	When you draw this, deal 2 damage to all characters.	Mage		Mech	
+Flamecannon	Goblins vs Gnomes	Common	2			Deal $4 damage to a random enemy minion.	Mage			
+Floating Watcher	Goblins vs Gnomes	Common	5	4	4	Whenever your hero takes damage on your turn, gain +2/+2.	Warlock		Demon	
+Flying Machine	Goblins vs Gnomes	Common	3	1	4	<b>Windfury</b>			Mech	Windfury
+Foe Reaper 4000	Goblins vs Gnomes	Legendary	8	6	9	Also damages the minions next to whomever he attacks.			Mech	
+Force-Tank MAX	Goblins vs Gnomes	Common	8	7	7	<b>Divine Shield</b>			Mech	Divine Shield
+Gahz'rilla	Goblins vs Gnomes	Legendary	7	6	9	Whenever this minion takes damage, double its Attack.	Hunter		Beast	
+Gazlowe	Goblins vs Gnomes	Legendary	6	3	6	Whenever you cast a 1-mana spell, add a random Mech to your hand.				
+Gilblin Stalker	Goblins vs Gnomes	Common	2	2	3	<b>Stealth</b>				Stealth
+Glaivezooka	Goblins vs Gnomes	Common	2	2		<b>Battlecry:</b> Give a random friendly minion +1 Attack.	Hunter	2		Battlecry
+Gnomeregan Infantry	Goblins vs Gnomes	Common	3	1	4	<b>Charge</b>
+<b>Taunt</b>				Charge,Taunt
+Gnomish Experimenter	Goblins vs Gnomes	Rare	3	3	2	<b>Battlecry:</b> Draw a card. If it's a minion, transform it into a Chicken.				Battlecry
+Goblin Auto-Barber	Goblins vs Gnomes	Common	2	3	2	<b>Battlecry</b>: Give your weapon +1 Attack.	Rogue		Mech	Battlecry
+Goblin Blastmage	Goblins vs Gnomes	Rare	4	5	4	<b>Battlecry:</b> If you have a Mech, deal 4 damage randomly split among all enemies.	Mage			Battlecry
+Goblin Sapper	Goblins vs Gnomes	Rare	3	2	4	Has +4 Attack while your opponent has 6 or more cards in hand.				Aura
+Grove Tender	Goblins vs Gnomes	Rare	3	2	4	<b>Choose One -</b> Give each player a Mana Crystal; or Each player draws a card.	Druid			
+Hemet Nesingwary	Goblins vs Gnomes	Legendary	5	6	3	<b>Battlecry:</b> Destroy a Beast.				Battlecry
+Hobgoblin	Goblins vs Gnomes	Epic	3	2	3	Whenever you play a 1-Attack minion, give it +2/+2.				
+Illuminator	Goblins vs Gnomes	Rare	3	2	4	If you control a <b>Secret</b> at the end of your turn, restore 4 health to your hero.				
+Imp-losion	Goblins vs Gnomes	Rare	4			Deal $2-$4 damage to a minion. Summon a 1/1 Imp for each damage dealt.	Warlock			
+Iron Juggernaut	Goblins vs Gnomes	Legendary	6	6	5	<b>Battlecry:</b> Shuffle a Mine into your opponent's deck. When drawn, it explodes for 10 damage.	Warrior		Mech	Battlecry
+Iron Sensei	Goblins vs Gnomes	Rare	3	2	2	At the end of your turn, give another friendly Mech +2/+2.	Rogue		Mech	
+Jeeves	Goblins vs Gnomes	Rare	4	1	4	At the end of each player's turn, that player draws until they have 3 cards.			Mech	
+Junkbot	Goblins vs Gnomes	Epic	5	1	5	Whenever a friendly Mech dies, gain +2/+2.			Mech	
+Kezan Mystic	Goblins vs Gnomes	Rare	4	4	3	<b>Battlecry:</b> Take control of a random enemy <b>Secret</b>.				Battlecry
+King of Beasts	Goblins vs Gnomes	Rare	5	2	6	<b>Taunt</b>. <b>Battlecry:</b> Gain +1 Attack for each other Beast you have.	Hunter		Beast	Battlecry,Taunt
+Light of the Naaru	Goblins vs Gnomes	Rare	1			Restore #3 Health. If the target is still damaged, summon a Lightwarden.	Priest			
+Lightbomb	Goblins vs Gnomes	Epic	6			Deal damage to each minion equal to its Attack.	Priest			AffectedBySpellPower
+Lil' Exorcist	Goblins vs Gnomes	Rare	3	2	3	<b>Taunt</b>
+<b>Battlecry:</b> Gain +1/+1 for each enemy <b>Deathrattle</b> minion.				Battlecry,Taunt
+Lost Tallstrider	Goblins vs Gnomes	Common	4	5	4				Beast	
+Madder Bomber	Goblins vs Gnomes	Rare	5	5	4	<b>Battlecry:</b> Deal 6 damage randomly split between all other characters.				Battlecry
+Mal'Ganis	Goblins vs Gnomes	Legendary	9	9	7	Your other Demons have +2/+2.
+Your hero is <b>Immune</b>.	Warlock		Demon	Aura
+Malorne	Goblins vs Gnomes	Legendary	7	9	7	<b>Deathrattle:</b> Shuffle this minion into your deck.	Druid		Beast	Deathrattle
+Mech-Bear-Cat	Goblins vs Gnomes	Rare	6	7	6	Whenever this minion takes damage, add a <b>Spare Part</b> card to your hand.	Druid		Mech	
+Mechanical Yeti	Goblins vs Gnomes	Common	4	4	5	<b>Deathrattle:</b> Give each player a <b>Spare Part.</b>			Mech	Deathrattle
+Mechwarper	Goblins vs Gnomes	Common	2	2	3	Your Mechs cost (1) less.			Mech	Aura
+Mekgineer Thermaplugg	Goblins vs Gnomes	Legendary	9	9	7	Whenever an enemy minion dies, summon a Leper Gnome.			Mech	
+Metaltooth Leaper	Goblins vs Gnomes	Rare	3	3	3	<b>Battlecry</b>: Give your other Mechs +2 Attack.	Hunter		Mech	Battlecry
+Micro Machine	Goblins vs Gnomes	Common	2	1	2	At the start of each turn, gain +1 Attack.			Mech	
+Mimiron's Head	Goblins vs Gnomes	Legendary	5	4	5	At the start of your turn, if you have at least 3 Mechs, destroy them all and form V-07-TR-0N.			Mech	
+Mini-Mage	Goblins vs Gnomes	Epic	4	4	1	<b>Stealth</b>
+<b>Spell Damage +1</b>				Spellpower,Stealth
+Mistress of Pain	Goblins vs Gnomes	Rare	2	1	4	Whenever this minion deals damage, restore that much Health to your hero.	Warlock		Demon	
+Mogor the Ogre	Goblins vs Gnomes	Legendary	6	7	6	All minions have a 50% chance to attack the wrong enemy.				
+Muster for Battle	Goblins vs Gnomes	Rare	3			Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.	Paladin			
+Neptulon	Goblins vs Gnomes	Legendary	7	7	7	<b>Battlecry:</b> Add 4 random Murlocs to your hand. <b>Overload:</b> (3)	Shaman			Battlecry
+Ogre Brute	Goblins vs Gnomes	Common	3	4	4	50% chance to attack the wrong enemy.				
+Ogre Ninja	Goblins vs Gnomes	Rare	5	6	6	<b>Stealth</b>
+50% chance to attack the wrong enemy.	Rogue			Stealth
+Ogre Warmaul	Goblins vs Gnomes	Common	3	4		50% chance to attack the wrong enemy.	Warrior	2		
+One-eyed Cheat	Goblins vs Gnomes	Rare	2	4	1	Whenever you summon a Pirate, gain <b>Stealth</b>.	Rogue		Pirate	
+Piloted Shredder	Goblins vs Gnomes	Common	4	4	3	<b>Deathrattle:</b> Summon a random 2-Cost minion.			Mech	Deathrattle
+Piloted Sky Golem	Goblins vs Gnomes	Epic	6	6	4	<b>Deathrattle:</b> Summon a random 4-Cost minion.			Mech	Deathrattle
+Powermace	Goblins vs Gnomes	Rare	3	3		<b>Deathrattle</b>: Give a random friendly Mech +2/+2.	Shaman	2		Deathrattle
+Puddlestomper	Goblins vs Gnomes	Common	2	3	2				Murloc	
+Quartermaster	Goblins vs Gnomes	Epic	5	2	5	<b>Battlecry:</b> Give your Silver Hand Recruits +2/+2.	Paladin			Battlecry
+Recombobulator	Goblins vs Gnomes	Epic	2	3	2	<b>Battlecry:</b> Transform a friendly minion into a random minion with the same Cost.				Battlecry
+Recycle	Goblins vs Gnomes	Rare	6			Shuffle an enemy minion into your opponent's deck.	Druid			
+Sabotage	Goblins vs Gnomes	Epic	4			Destroy a random enemy minion. <b>Combo</b>: And your opponent's weapon.	Rogue			Combo
+Salty Dog	Goblins vs Gnomes	Common	5	7	4				Pirate	
+Scarlet Purifier	Goblins vs Gnomes	Rare	3	4	3	<b>Battlecry</b>: Deal 2 damage to all minions with <b>Deathrattle</b>.	Paladin			Battlecry
+Screwjank Clunker	Goblins vs Gnomes	Rare	4	2	5	<b>Battlecry</b>: Give a friendly Mech +2/+2.	Warrior		Mech	Battlecry
+Seal of Light	Goblins vs Gnomes	Common	2			Restore #4 Health to your hero and gain +2 Attack this turn.	Paladin			ImmuneToSpellpower
+Shadowbomber	Goblins vs Gnomes	Epic	1	2	1	<b>Battlecry:</b> Deal 3 damage to each hero.	Priest			Battlecry
+Shadowboxer	Goblins vs Gnomes	Rare	2	2	3	Whenever a character is healed, deal 1 damage to a random enemy.	Priest		Mech	
+Shielded Minibot	Goblins vs Gnomes	Common	2	2	2	<b>Divine Shield</b>	Paladin		Mech	Divine Shield
+Shieldmaiden	Goblins vs Gnomes	Rare	6	5	5	<b>Battlecry:</b> Gain 5 Armor.	Warrior			Battlecry
+Ship's Cannon	Goblins vs Gnomes	Common	2	2	3	Whenever you summon a Pirate, deal 2 damage to a random enemy.				
+Shrinkmeister	Goblins vs Gnomes	Common	2	3	2	<b>Battlecry:</b> Give a minion -2 Attack this turn.	Priest			Battlecry
+Siege Engine	Goblins vs Gnomes	Rare	5	5	5	Whenever you gain Armor, give this minion +1 Attack.	Warrior		Mech	
+Siltfin Spiritwalker	Goblins vs Gnomes	Epic	4	2	5	Whenever another friendly Murloc dies, draw a card. <b>Overload</b>: (1)	Shaman		Murloc	
+Sneed's Old Shredder	Goblins vs Gnomes	Legendary	8	5	7	<b>Deathrattle:</b> Summon a random legendary minion.			Mech	Deathrattle
+Snowchugger	Goblins vs Gnomes	Common	2	2	3	<b>Freeze</b> any character damaged by this minion.	Mage		Mech	Freeze
+Soot Spewer	Goblins vs Gnomes	Rare	3	3	3	<b>Spell Damage +1</b>	Mage		Mech	Spellpower
+Spider Tank	Goblins vs Gnomes	Common	3	3	4				Mech	
+Steamwheedle Sniper	Goblins vs Gnomes	Epic	2	2	3	Your Hero Power can target minions.	Hunter			
+Stonesplinter Trogg	Goblins vs Gnomes	Common	2	2	3	Whenever your opponent casts a spell, gain +1 Attack.				
+Target Dummy	Goblins vs Gnomes	Rare	0	0	2	<b>Taunt</b>			Mech	Taunt
+Tinker's Sharpsword Oil	Goblins vs Gnomes	Common	4			Give your weapon +3 Attack. <b>Combo:</b> Give a random friendly minion +3 Attack.	Rogue			Combo
+Tinkertown Technician	Goblins vs Gnomes	Common	3	3	3	<b>Battlecry:</b> If you have a Mech, gain +1/+1 and add a <b>Spare Part</b> to your hand.				Battlecry
+Toshley	Goblins vs Gnomes	Legendary	6	5	7	<b>Battlecry and Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.				Battlecry,Deathrattle
+Trade Prince Gallywix	Goblins vs Gnomes	Legendary	6	5	8	Whenever your opponent casts a spell, gain a copy of it and give them a Coin.	Rogue			
+Tree of Life	Goblins vs Gnomes	Epic	9			Restore all characters to full Health.	Druid			
+Troggzor the Earthinator	Goblins vs Gnomes	Legendary	7	6	6	Whenever your opponent casts a spell, summon a Burly Rockjaw Trogg.				
+Unstable Portal	Goblins vs Gnomes	Rare	2			Add a random minion to your hand. It costs (3) less.	Mage			
+Upgraded Repair Bot	Goblins vs Gnomes	Rare	5	5	5	<b>Battlecry:</b> Give a friendly Mech +4 Health.	Priest		Mech	Battlecry
+Velen's Chosen	Goblins vs Gnomes	Common	3			Give a minion +2/+4 and <b>Spell Damage +1</b>.	Priest			
+Vitality Totem	Goblins vs Gnomes	Rare	2	0	3	At the end of your turn, restore 4 Health to your hero.	Shaman		Totem	
+Vol'jin	Goblins vs Gnomes	Legendary	5	6	2	<b>Battlecry:</b> Swap Health with another minion.	Priest			Battlecry
+Warbot	Goblins vs Gnomes	Common	1	1	3	<b>Enrage:</b> +1 Attack.	Warrior		Mech	Enrage
+Wee Spellstopper	Goblins vs Gnomes	Epic	4	2	5	Adjacent minions can't be targeted by spells or Hero Powers.	Mage			Aura
+Whirling Zap-o-matic	Goblins vs Gnomes	Common	2	3	2	<b>Windfury</b>	Shaman		Mech	Windfury
+Alleria Windrunner	Hero Skins	Epic			30		Hunter			
+Magni Bronzebeard	Hero Skins	Epic			30		Warrior			
+Medivh	Hero Skins	Epic			30		Mage			
+Elite Tauren Chieftain	Promotion	Legendary	5	5	5	<b>Battlecry:</b> Give both players the power to ROCK! (with a Power Chord card)				Battlecry
+Gelbin Mekkatorque	Promotion	Legendary	6	6	6	<b>Battlecry:</b> Summon an AWESOME invention.				Battlecry
+Captain's Parrot	Reward	Epic	2	1	1	<b>Battlecry:</b> Put a random Pirate from your deck into your hand.			Beast	Battlecry
+Old Murk-Eye	Reward	Legendary	4	2	4	<b>Charge</b>. Has +1 Attack for each other Murloc on the battlefield.			Murloc	Charge
